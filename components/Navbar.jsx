@@ -21,7 +21,7 @@ const Navbar = () => (
           className='w-[80px] h-[80px] object-cover'
           
         />
-        <h2 className="font-extrabold text-[29px] lg:text-[29px] md:text-[21px] sm:text-[11px] leading-[25px] text-white sm:my-2 lg:my-5">
+        <h2 className="font-extrabold text-[29px] lg:text-[29px] md:text-[21px] sm:text-[12px] leading-[25px] text-white sm:my-2 lg:my-5">
            VASAVI COLLEGE OF ENGINEERING
         </h2>
       </div>

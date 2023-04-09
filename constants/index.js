@@ -282,18 +282,12 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'ReIntegrate your memories with the past ACUMEN Experiences',
-    subtitle:
-        'The ACUMEN 2K23 reignites the passion developed from the past experiences and brings forth a change. Can you spot some changes?',
-  },
-  {
-    imgUrl: '/planet-07.png',
     title: 'Relive your ACUMEN experience with this gallery of our treasure',
     subtitle:
         'Missed an Event or was part of all the events? Worry not, we got you covered! Refresh yourselves with best moments of ACUMEN 2K23',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/planet-07.png',
     title: 'The 2k23 ACUMEN Development Team',
     subtitle:
         'The Acumen would have been a lost cause unless for the Acumen Development Team. Wanna have a look of the awesome team?',
