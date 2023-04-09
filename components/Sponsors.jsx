@@ -33,6 +33,8 @@ const Sponsors = () => {
   if (!windowWidth) return null;
   
 
+  const containerSize = windowWidth / 4 - 20; // calculate the container size based on the screen width and number of containers
+
   const settings = {
     dots: false,
     arrows: false,
@@ -47,44 +49,52 @@ const Sponsors = () => {
   };
 
   const sponsorItems = sponsorsList.map((sponsor) => (
-    <div key={sponsor.id} className="p-4" style={{ padding: "0 10px" }}>
+    <div
+      key={sponsor.id}
+      className="p-4"
+      style={{ padding: "0 10px", width: `${containerSize}px` }}
+    >
       <div
         style={{
           backgroundColor: "white",
-          height: "200px",
-          width: "100%",
+          height: `${containerSize}px`,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
           borderRadius: "14px",
         }}
       >
-        <img className="cursor-pointer"
+        <img
+          className="cursor-pointer"
           src={sponsor.imgUrl}
           alt={sponsor.title}
-          style={{ maxHeight: "180px", maxWidth: "100%", objectFit: "cover" }}
+          style={{
+            height: "auto",
+            width: "auto",
+            maxHeight: "100%",
+            maxWidth: "100%",
+          }}
         />
       </div>
     </div>
   ));
 
   return (
-        <section className={`${styles.paddings} relative z-10`}>
-        <motion.div
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
-          className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
-        >
-          <TypingText title="| Sponsors" textStyles="text-center" />
-          </motion.div>
-    <div style={{ width: "80%", margin: "0 auto" }}>
-      <Slider {...settings}>{sponsorItems}</Slider>
-    </div>
-          </section>
+    <section className={`${styles.paddings} relative z-10`}>
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
+      >
+        <TypingText title="| Sponsors" textStyles="text-center" />
+      </motion.div>
+      <div style={{ width: "75%", margin: "0 auto" }}>
+        <Slider {...settings}>{sponsorItems}</Slider>
+      </div>
+    </section>
   );
-  };
-
+};
 
 export default Sponsors;

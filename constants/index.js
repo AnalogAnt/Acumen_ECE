@@ -229,23 +229,21 @@ export const startingFeatures = [
 ];
 
 export const startingFeatures1 = [
-  'Tips to be added!!! Find an event that suits you and you want to enter',
-  'Register for the event',
-  "Why wait? Let's dive right in and make the most of every moment!",
+  'Understand the assigned topic and relevant information.',
+  'Create a visually stunning poster with legible fonts and high-quality images.',
+  'Practice presenting confidently and using your poster as a visual aid.'
 ];
 
 export const startingFeatures2 = [
-  'TIps to be added!!!! Find an event that suits you and you want to enter',
-  'Register for the event',
-  "Why wait? Let's dive right in and make the most of every moment!",
-  'Lets Enjoy',
+  'Read and understand the research paper carefully.',
+  'Prepare a visually engaging and well-organized presentation.',
+  'Practice your delivery for better confidence and timing.'
 ];
 
 export const startingFeatures3 = [
-  'Find an event that suits you and you want to enter',
-  'Register for the event',
-  "Why wait? Let's dive right in and make the most of every moment!",
-  'Lets Enjoy',
+  'Visit all displays and ask questions to understand the projects.',
+  'Engage with presenters and learn from live demonstrations.',
+  'Take notes and network with like-minded individuals.'
 ];
 
 export const startingFeatures4 = [
@@ -256,7 +254,9 @@ export const startingFeatures4 = [
 ];
 
 export const startingFeatures5 = [
-  'Tips to be added!! Attend demonstrations to learn about the current robotic technology',
+  'Choose events that align with your technical strengths.',
+  'Brush up on relevant technical skills and knowledge beforehand.',
+  'Collaborate with team members effectively and communicate clearly during team events.'
   
 ];
 
