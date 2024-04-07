@@ -297,18 +297,19 @@ export const insights = [
 export const socials = [
   {
     name: 'twitter',
-    url: '/twitter.svg',
+    imgUrl:'/x.svg',
   },
   {
     name: 'linkedin',
-    url: '/linkedin.svg',
+    imgUrl: '/linkedin.svg',
   },
   {
     name: 'instagram',
-    url: '/instagram.svg',
+    imgUrl: '/instagram.svg',
+    url:'https://www.instagram.com/acumen_ece2024'
   },
   {
     name: 'facebook',
-    url: '/facebook.svg',
+    imgUrl: '/facebook.svg',
   },
 ];
