@@ -44,18 +44,18 @@ export const exploreWorlds4 = [
   {
     id: 'world-2',
     imgUrl: '/RE-1.png',
-    Poster: '/poster_robocontest.png',
-    title: 'Autonomous Robo Contest',
-    subtitle: 'The main theme of the RACE is to build a completely autonomous robot which is capable of solving an arena which consists of various aspects like line following, obstacle detection.',
+    Poster: '/tug_of_war.png',
+    title: 'Tug Of War',
+    subtitle: 'Get ready for ultimate Showdown at Acumen 2024(ECE). Robo-Tug of War is a modernized version of the classic game that replaces human participants with team-controlled robotic arms or devices. Robo-Tug of War mixes the timeless appeal of tug of war with the excitement of robotics, providing an unforgettable experience for both participants and spectators.',
     open:false
     // pageUrl: '/InspireAndIgnite'
   },
   {
     id: 'world-3',
     imgUrl: '/RE-3.png',
-    Poster: '/poster_basketball.png',
-    title: 'Robo Basketball',
-    subtitle: 'This is a technical team event. This event will be played by robots of two teams against each other. The main objective of the bots will be to score goals by throwing the ball in the provided basket with the help of a robotic arm.',
+    Poster: '/robo_sumo.jpeg',
+    title: 'Robo Sumo',
+    subtitle: 'Prepare for an electrifying clash of metal and circuits at the Robo Sumo Showdown! This year, we invite you to witness the titans of robotics as they battle for supremacy in the arena. Inspired by the ancient mythological giants, teams will unleash their colossal creations, each a marvel of modern engineering and innovation.',
     open:false
     // pageUrl: '/ProjectExpo'
   },
@@ -63,7 +63,7 @@ export const exploreWorlds4 = [
     id: 'world-4',
     imgUrl: '/RE-5.jpg',
     Poster: '/poster_drones.png',
-    title: 'Drones',
+    title: 'Drones/RC Planes',
     subtitle: 'Drones were something straight out of science fiction which became reality now. All of us will want to experience flying it.  Well this is an opportunity to get a real time experience of flying and controlling a drone.it is like a workshop conducted by our students. You will first get virtual controlling experience with simulator upon training you will be given chance to fly real drone. So you will learn how to design and control the drone.',
     open:false
     // pageUrl: '/RoboticEvents'
@@ -71,9 +71,9 @@ export const exploreWorlds4 = [
   {
     id: 'world-5',
     imgUrl: '/RE-6.jpg',
-    Poster: '/poster_rcplanes.png',
-    title: 'RC Planes',
-    subtitle: 'RC Planes race is conducted to compete for the blast the target balloon allocated. This event expects a designed RC plane based on your own specifications. ',
+    Poster: '/',
+    title: 'Pick and Run',
+    subtitle: '',
     open:false
     // pageUrl: '/TechnicalEvents'  
   },
@@ -296,21 +296,21 @@ export const insights = [
 ];
 
 export const socials = [
-  {
-    name: 'twitter',
-    imgUrl:'/x.svg',
-  },
-  {
-    name: 'linkedin',
-    imgUrl: '/linkedin.svg',
-  },
+ // {
+  //  name: 'twitter',
+   // imgUrl:'/x.svg',
+ // },
+ // {
+  //  name: 'linkedin',
+  //  imgUrl: '/linkedin.svg',
+ // },
   {
     name: 'instagram',
     imgUrl: '/instagram.svg',
     url:'https://www.instagram.com/acumen_ece2024'
   },
-  {
-    name: 'facebook',
-    imgUrl: '/facebook.svg',
-  },
+  //{
+  //  name: 'facebook',
+   // imgUrl: '/facebook.svg',
+  //},
 ];

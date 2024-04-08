@@ -20,7 +20,7 @@ const Navbar = () => {
           <img
             src="/logo_acumen.png"
             alt="search"
-            className="w-[100px] h-[300px] mr-3 object-contain gap-4"
+            className="w-[100px] h-[150px] mr-3 object-contain gap-4"
           />
         </div>
           
@@ -46,7 +46,7 @@ const Navbar = () => {
             <img
               src="/headset.svg"
               alt="headset"
-              className="w-[24px] h-[24px] object-contain"
+              className="w-[24px] h-[10px] object-contain"
             />
             <span className="font-normal text-[16px] text-white">
               Register Here
