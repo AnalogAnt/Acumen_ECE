@@ -41,6 +41,15 @@ const Footer = () => (
           <h4 className="font-extrabold text-[24px] text-white">
             ACUMEN
           </h4>
+          <div>
+            <dl className='text-white'>
+              <dt>Contact:-</dt>
+              <dd>D.Nithin: +91-7659972439 </dd>
+              <dd>Anjana Shroff: +91-7893909029 </dd>
+            </dl>
+            
+          </div>
+
           <div className="flex gap-4">
             {socials.map((social) => (
               <a href={social.url} target='_blank' rel='noreferrer'>
@@ -53,6 +62,8 @@ const Footer = () => (
               </a>
             ))}
           </div>
+          
+          
         </div>
       </div>
     </div>

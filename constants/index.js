@@ -178,18 +178,18 @@ export const exploreWorlds51 = [
 export const sponsorsList = [
   {
     id: 'sp-1',
-    imgUrl: '/BoB.png',
-    title: 'Bank of Baroda'
+    imgUrl: '/mathworks.jpg',
+    title: 'MathWorks'
   },
   {
     id: 'sp-2',
-    imgUrl: '/Capricot.png',
-    title: 'Capricot'
+    imgUrl: '/suchirindia.png',
+    title: 'suchirindia'
   },
   {
     id: 'sp-3',
-    imgUrl: '/Physitech.png',
-    title: 'Physitech Electronics'
+    imgUrl: '/vishalPeripherals.jfif',
+    title: 'Vishal Peripherals'
   },
   {
     id: 'sp-4',
@@ -198,19 +198,19 @@ export const sponsorsList = [
   },
   {
     id: 'sp-5',
-    imgUrl: '/Entuple.png',
-    title: 'Entuple Technologies'
+    imgUrl: '/vaalukaSolutions.png',
+    title: 'Vaaluka Solutions'
   },
   {
     id: 'sp-6',
-    imgUrl: '/NSE.png',
-    title: 'NSE Talent Sprint'
+    imgUrl: '/oppo.png',
+    title: 'oppo'
   },
-  {
+  /*{
     id: 'sp-7',
     imgUrl: '/ARK.png',
     title: 'ARK'
-  },
+  },*/
   {
     id: 'sp-8',
     imgUrl: '/Alumni.png',
@@ -285,11 +285,11 @@ export const insights = [
     imgUrl: '/planet-06.png',
     title: 'Relive your ACUMEN experience with this gallery of our treasure',
     subtitle:
-        'Missed an Event or was part of all the events? Worry not, we got you covered! Refresh yourselves with best moments of ACUMEN 2K23',
+        'Missed an Event or was part of all the events? Worry not, we got you covered! Refresh yourselves with best moments of ACUMEN 2K24',
   },
   {
     imgUrl: '/planet-07.png',
-    title: 'The 2k23 ACUMEN Development Team',
+    title: 'The 2k24 ACUMEN Development Team',
     subtitle:
         'The Acumen would have been a lost cause unless for the Acumen Development Team. Wanna have a look of the awesome team?',
   },
