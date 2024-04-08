@@ -84,13 +84,23 @@ export const exploreWorlds5 = [
     id: 'world-1',
     imgUrl: '/planet13.jpg',
     Poster: '/poster_industrize.png',
-    title: 'Industry Defined Problem',
+    title: 'Industrize and Ideathon',
     subtitle: 'In this event you need to provide ideas for the given industry problems to jury persons.The below link contains the list of problem statements provided by different organizations.',
     open:false
     // pageUrl: '/Poster'
   },
+  
   {
     id: 'world-2',
+    imgUrl: '/Planet24.jpg',
+    Poster: '/poster_rcracing.jpg',
+    title: 'RC Car Racing',
+    subtitle: "All men are afraid in battle. Live daringly, boldly, fearlessly. Taste the relish to be found in a battle - in having put forth the best within you. The time to take counsel of your fears is before you make an important decision. That's the time to listen to every fear you can imagine! When you have collected all the facts and fears and made your decision, turn off all your fears and go ahead! Welcome to RC Racing 24: Where Attitude is a little thing that makes a big difference.",
+    open:false
+    // pageUrl: '/ProjectExpo'
+  },
+  {
+    id: 'world-3',
     imgUrl: '/planet-02.png',
     Poster: '/poster_foxhunt.png',
     title: 'Fox Hunt',
@@ -99,19 +109,10 @@ export const exploreWorlds5 = [
     // pageUrl: '/InspireAndIgnite'
   },
   {
-    id: 'world-3',
-    imgUrl: '/Planet24.jpg',
-    Poster: '/poster_debugging.png',
-    title: 'Circuit Debugging',
-    subtitle: 'The task is to build a circuit in tinker cad which is an online simulation tool which helps in programming the Arduino,check if the circuit which we are building is correct and give the output required from the circuit.',
-    open:false
-    // pageUrl: '/ProjectExpo'
-  },
-  {
     id: 'world-4',
     imgUrl: '/Planet25.jpg',
     Poster: '/poster_circuithunt.png',
-    title: 'Circuit Hunt',
+    title: 'Technical Twisters',
     subtitle: 'The main task of CIRCUIT HUNT is to solve the questions given in the QR codes and finally build a circuit using the answers they obtained, on a circuit building platform-multisim or by using hardware.',
     open:false
     // pageUrl: '/RoboticEvents'
@@ -119,8 +120,8 @@ export const exploreWorlds5 = [
   {
     id: 'world-5',
     imgUrl: '/cover.png',
-    Poster: '/poster_valorant.png',
-    title: 'LAN Gaming  -Valorant',
+    Poster: '/poster_valorant.jpg',
+    title: 'Valotopia-Valorant',
     subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
     open:false
     // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
@@ -141,7 +142,7 @@ export const exploreWorlds51 = [
     id: 'world-7',
     imgUrl: '/planet-02.png',
     Poster: '/poster_targetpractice.png',
-    title: 'Target Practice',
+    title: 'Target Hit',
     subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
     open:false
     // pageUrl: '/InspireAndIgnite'

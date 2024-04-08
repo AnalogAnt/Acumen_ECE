@@ -20,7 +20,7 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Register for Acumen
         </h4>
-        <a href="https://docs.google.com/forms/d/17PGeA5MN6YOfg8cpEeA8R04hUC84P--cqs6p6qwuDW4/edit?ts=64116010" target="_blank" rel="noreferrer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform" target="_blank" rel="noreferrer">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
             src="/headset.svg"
