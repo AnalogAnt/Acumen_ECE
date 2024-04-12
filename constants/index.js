@@ -13,7 +13,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-3',
-    imgUrl: '/poster_projectexpo.png',
+    imgUrl: '/poster_project.png',
     title: 'Project Expo',
     pageUrl: '/ProjectExpo'
   },
@@ -44,9 +44,9 @@ export const exploreWorlds4 = [
   },
   {
     id: 'world-2',
-    imgUrl:'/tug_of_war.png',
+    imgUrl:'/poster_thrust.png',
     //imgUrl: '/RE-1.png',
-    Poster: '/tug_of_war.png',
+    Poster: '/poster_thrust.png',
     title: 'Tug Of War',
     subtitle: 'Get ready for ultimate Showdown at Acumen 2024(ECE). Robo-Tug of War is a modernized version of the classic game that replaces human participants with team-controlled robotic arms or devices. Robo-Tug of War mixes the timeless appeal of tug of war with the excitement of robotics, providing an unforgettable experience for both participants and spectators.',
     open:false
@@ -54,9 +54,9 @@ export const exploreWorlds4 = [
   },
   {
     id: 'world-3',
-    imgUrl:'/robo_sumo.jpeg',
+    imgUrl:'/robo_sumo.png',
     //imgUrl: '/RE-3.png',
-    Poster: '/robo_sumo.jpeg',
+    Poster: '/robo_sumo.png',
     title: 'Robo Sumo',
     subtitle: 'Prepare for an electrifying clash of metal and circuits at the Robo Sumo Showdown! This year, we invite you to witness the titans of robotics as they battle for supremacy in the arena. Inspired by the ancient mythological giants, teams will unleash their colossal creations, each a marvel of modern engineering and innovation.',
     open:false
@@ -64,20 +64,20 @@ export const exploreWorlds4 = [
   },
   {
     id: 'world-4',
-    imgUrl:'/poster_drones.png',
+    imgUrl:'/poster_humanoid.png',
     //imgUrl: '/RE-5.jpg',
-    Poster: '/poster_drones.png',
-    title: 'Drones/RC Planes',
-    subtitle: 'Drones were something straight out of science fiction which became reality now. All of us will want to experience flying it.  Well this is an opportunity to get a real time experience of flying and controlling a drone.it is like a workshop conducted by our students. You will first get virtual controlling experience with simulator upon training you will be given chance to fly real drone. So you will learn how to design and control the drone.',
+    Poster: '/poster_humanoid.png',
+    title: 'Humanoid Robo',
+    subtitle: '',
     open:false
     // pageUrl: '/RoboticEvents'
   },
   {
     id: 'world-5',
-    imgUrl: '/RE-6.jpg',
-    Poster: '/',
+    imgUrl: '/poster_pick.png',
+    Poster: '/poster_pick.png',
     title: 'Pick and Run',
-    subtitle: '',
+    subtitle: 'The Pick and Run Competition challenges participants to design and build robots capable of autonomously or remotely picking up designated objects and placing them in specific target zones within the competition arena',
     open:false
     // pageUrl: '/TechnicalEvents'  
   },
@@ -97,9 +97,9 @@ export const exploreWorlds5 = [
   
   {
     id: 'world-2',
-    imgUrl: '/poster_rcracing.jpg',
+    imgUrl: '/poster_rcracing.png',
     //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_rcracing.jpg',
+    Poster: '/poster_rcracing.png',
     title: 'RC Car Racing',
     subtitle: "All men are afraid in battle. Live daringly, boldly, fearlessly. Taste the relish to be found in a battle - in having put forth the best within you. The time to take counsel of your fears is before you make an important decision. That's the time to listen to every fear you can imagine! When you have collected all the facts and fears and made your decision, turn off all your fears and go ahead! Welcome to RC Racing 24: Where Attitude is a little thing that makes a big difference.",
     open:false
@@ -107,9 +107,9 @@ export const exploreWorlds5 = [
   },
   {
     id: 'world-3',
-    imgUrl:'/poster_foxhunt.png',
+    imgUrl:'/poster_fox.png',
     //imgUrl: '/planet-02.png',
-    Poster: '/poster_foxhunt.png',
+    Poster: '/poster_fox.png',
     title: 'Fox Hunt',
     subtitle: 'Foxhunt is the simultaneous operation of two devices with overlapping frequencies. We have certain boundary ranges and few set of rules for this event. In this, we conceal the transmitter, and each team is given a receiver. They should adjust the frequency of the receiver and move in accordance with it. When the transmitter and receiver frequencies coincide, a buzzer sound is heard through headphones and as you get closer to the transmitter the sound will get clearer and louder. So your task is with the provided receiver, the people must look for the hidden transmitter.',
     open:false
@@ -117,9 +117,9 @@ export const exploreWorlds5 = [
   },
   {
     id: 'world-4',
-    imgUrl:'/poster_circuithunt.png',
+    imgUrl:'/poster_twisters.png',
     //imgUrl: '/Planet25.jpg',
-    Poster: '/poster_circuithunt.png',
+    Poster: '/poster_twisters.png',
     title: 'Technical Twisters',
     subtitle: 'The main task of CIRCUIT HUNT is to solve the questions given in the QR codes and finally build a circuit using the answers they obtained, on a circuit building platform-multisim or by using hardware.',
     open:false
@@ -127,9 +127,9 @@ export const exploreWorlds5 = [
   },
   {
     id: 'world-5',
-    imgUrl:'/poster_valorant.jpg',
+    imgUrl:'/poster_valotopia.png',
     //imgUrl: '/cover.png',
-    Poster: '/poster_valorant.jpg',
+    Poster: '/poster_valotopia.png',
     title: 'Valotopia-Valorant',
     subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
     open:false
@@ -160,9 +160,9 @@ export const exploreWorlds51 = [
   },
   {
     id: 'world-8',
-    imgUrl:'/poster_codevars.png',
+    imgUrl:'/poster_codewars.png',
     //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_codevars.png',
+    Poster: '/poster_codewars.png',
     title: 'CodeVars',
     subtitle: 'Codevars is a coding competition exclusively for BE 1st and 2nd year students in which they have to solve 3 questions within a span of 60 minutes. Out of the 3 questions, one is easy, one is medium and the other is hard. Participants should bring a laptop along with them to participate in the contest.',
     open:false
@@ -170,23 +170,24 @@ export const exploreWorlds51 = [
   },
   {
     id: 'world-9',
-    imgUrl:'/poster_vrmaze.png',
+    imgUrl:'/poster_iot.png',
     //imgUrl: '/Planet25.jpg',
-    Poster: '/poster_vrmaze.png',
-    title: 'VR Maze',
-    subtitle: 'VR Maze gives you a immense virtual experience and you need to solve a maze in side by side  passing hurdles in allocated time. ',
+    Poster: '/poster_iot.png',
+    title: 'IoT Workshop',
+    subtitle: '',
     open:false
     // pageUrl: '/RoboticEvents'
   },
   {
     id: 'world-10',
-    imgUrl:'/poster_whackamole.png',
+    imgUrl:'/poster_kicad.png',
     //imgUrl: '/cover.png',
-    Poster: '/poster_whackamole.png',
-    title: 'Whack-A-Mole',
-    subtitle: 'Whack-a-mole" is a classic arcade game where players use a mallet to hit mechanical moles as they pop up from different holes. The game is usually played against a clock, with the goal being to hit as many moles as possible within the time limit. The traditional "Whack-a-mole" has been remodified to use lasers and sensors instead of a mallet. The game is timed, so players must work quickly to earn as many points as possible before time runs out. Their scores are displayed on a small LCD screen or a set of 7-segment displays.',
+    Poster: '/poster_kicad.png',
+    title: 'Kicad Workshop',
+    subtitle: '',
     open:false
   },
+  
 ];
 
 export const sponsorsList = [

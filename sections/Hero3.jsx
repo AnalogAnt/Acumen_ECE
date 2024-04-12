@@ -46,7 +46,7 @@ return(
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[150px] z-[0] -top-[0px]" />
 
         <img
-          src="/Planet19.png"
+          src="/poster_project.png"
           alt="hero_cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />

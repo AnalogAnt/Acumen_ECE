@@ -22,7 +22,7 @@ const GetStarted5 = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/get-started.png"
+          src="/poster_rcracing.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

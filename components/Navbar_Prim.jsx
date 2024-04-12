@@ -21,7 +21,7 @@ const Navbar = () => {
           <img
             src="/logo_acumen.png"
             alt="search"
-            className="w-[100px] h-[150px] mr-3 object-contain gap-4"
+            className="w-[150px] h-[200px] mr-3 object-contain gap-4"
           />
         </div>
           
