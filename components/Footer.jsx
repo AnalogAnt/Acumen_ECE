@@ -54,7 +54,7 @@ const Footer = () => (
         <div className='flex-col w-25 mb-5'>
           <div className='flex flex-col gap-2'>
             <p className='text-white '><span className='font-bold'>Address:-</span> Vasavi College of Engineering, Ibrahim Bagh, <br />Hyderabad, Telangana 500031</p>
-            <a href='https://maps.app.goo.gl/Fvpc2fscM3xVzH1q6' className='text-sky-500 underline' target="_blank" rel="noreferrer">
+            <a href='https://maps.app.goo.gl/Fvpc2fscM3xVzH1q6' key='maps' className='text-sky-500 underline' target="_blank" rel="noreferrer">
               MAPS
             </a>
           </div>
