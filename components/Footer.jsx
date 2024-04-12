@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* eslint-disable @next/next/no-img-element */
 'use client';
 
@@ -45,9 +46,9 @@ const Footer = () => (
         </h4>
         <div className='mb-5'>
           <dl className='text-white'>
-            <dt className='font-bold'>Contact:-</dt>
-            <dd>D.Nithin: +91-7659972439 </dd>
-            <dd>Anjana Shroff: +91-7893909029 </dd>
+            <dt className='font-bold' key='contact'>Contact:-</dt>
+            <dd key='name1'>D.Nithin: +91-7659972439 </dd>
+            <dd key='name2'>Anjana Shroff: +91-7893909029 </dd>
           </dl>
 
         </div>
@@ -61,9 +62,8 @@ const Footer = () => (
         </div>
         <div className="flex gap-4">
           {socials.map((social) => (
-            <a href={social.url} target='_blank' rel='noreferrer'>
+            <a href={social.url} target='_blank' rel='noreferrer'  key={social.name}>
               <img
-                key={social.name}
                 src={social.imgUrl}
                 alt={social.name}
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
