@@ -64,11 +64,11 @@ export const exploreWorlds4 = [
   },
   {
     id: 'world-4',
-    imgUrl:'/poster_humanoid.png',
+    imgUrl:'/poster_rcracing.png',
     //imgUrl: '/RE-5.jpg',
-    Poster: '/poster_humanoid.png',
-    title: 'Humanoid Robo',
-    subtitle: '',
+    Poster: '/poster_rcracing.png',
+    title: 'RC Racing',
+    subtitle: "All men are afraid in battle. Live daringly, boldly, fearlessly. Taste the relish to be found in a battle - in having put forth the best within you. The time to take counsel of your fears is before you make an important decision. That's the time to listen to every fear you can imagine! When you have collected all the facts and fears and made your decision, turn off all your fears and go ahead! Welcome to RC Racing 24: Where Attitude is a little thing that makes a big difference.",
     open:false
     // pageUrl: '/RoboticEvents'
   },
@@ -97,11 +97,11 @@ export const exploreWorlds5 = [
   
   {
     id: 'world-2',
-    imgUrl: '/poster_rcracing.png',
+    imgUrl: '/poster_bug.png',
     //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_rcracing.png',
-    title: 'RC Car Racing',
-    subtitle: "All men are afraid in battle. Live daringly, boldly, fearlessly. Taste the relish to be found in a battle - in having put forth the best within you. The time to take counsel of your fears is before you make an important decision. That's the time to listen to every fear you can imagine! When you have collected all the facts and fears and made your decision, turn off all your fears and go ahead! Welcome to RC Racing 24: Where Attitude is a little thing that makes a big difference.",
+    Poster: '/poster_bug.png',
+    title: 'Bug Busters',
+    subtitle: "",
     open:false
     // pageUrl: '/ProjectExpo'
   },
@@ -235,6 +235,11 @@ export const sponsorsList = [
     id: 'sp-9',
     imgUrl: '/CCC.jpg',
     title: 'CCC'
+  },
+  {
+    id: 'sp-10',
+    imgUrl: '/capricot.png',
+    title: 'Capricot'
   },
 ];
 

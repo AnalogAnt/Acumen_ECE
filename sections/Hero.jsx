@@ -9,7 +9,7 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
-    <Navbar />
+    
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -17,7 +17,7 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="flex justify-center items-center flex-col relative z-10">
+      <div className="flex justify-center mt-0 items-center flex-col  z-5">
         <motion.h2 variants={textVariant(1.2)} className={styles.heroHeading}>
           ACUMEN
         </motion.h2>
@@ -33,12 +33,12 @@ const Hero = () => (
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[150px] z-[0] -top-[0px]" />
+        <div className="absolute w-full h-[300px] hero-gradient  z-[0] -top-[0px]" />
 
         <img
-          src="/Planet21.png"
+          src="/poster_main.png"
           alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+          className="w-full sm:h-[500px] h-[350px] object-cover  z-10 relative"
         />
 
         <a href="#explore">

@@ -18,10 +18,8 @@ const Footer = () => (
 >
   <div className="footer-gradient" />
   <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-    <div className="flex items-center justify-between flex-wrap gap-5">
-      <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-        Register for Acumen
-      </h4>
+    <div className="flex items-center justify-center flex-wrap gap-5">
+      
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform" target="_blank" rel="noreferrer">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
@@ -29,8 +27,21 @@ const Footer = () => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          <span className="font-normal text-[16px] text-white">
+          <span className="font-normal text-[26px] text-white">
             Register Here
+          </span>
+        </button>
+      </a>
+
+      <a href="https://forms.gle/KzViUPBoMLLNnAdT9" target="_blank" rel="noreferrer">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+          <img
+            src="/headset.svg"
+            alt="headset"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[26px] text-white">
+            Feedback
           </span>
         </button>
       </a>
@@ -60,18 +71,30 @@ const Footer = () => (
             </a>
           </div>
         </div>
+
+        <div className='flex-col w-25 mb-5 text-white'>
+        <dl>
+          <dt className='font-bold'>Design team 2k24:-</dt>
+          <div className='ml-2'>
+          <dd>Vikas Bagalkot</dd>
+          <dd>Kousik Sanagavarapu</dd>
+          <dd>Kriti Anchalia</dd>
+          <dd>Kireeti Vadali</dd>
+          </div>
+        </dl>
+        </div>
         <div className="flex gap-4">
           {socials.map((social) => (
             <a href={social.url} target='_blank' rel='noreferrer'  key={social.name}>
               <img
                 src={social.imgUrl}
                 alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
+                className="w-[44px] h-[44px] object-contain cursor-pointer"
               />
             </a>
           ))}
         </div>
-
+        
       </div>
     </div>
   </div>

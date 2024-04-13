@@ -16,13 +16,19 @@ const Navbar = () => {
   return (
     <div className='w-screen h-[80px] z-50 bg-black fixed drop-shadow-lg '>
       <div className='px-2 flex justify-between items-center w-full h-full'>
-        
+        <div>
+          <a href="https://vce.ac.in/" target='_blank' rel='norefferer'>
+            <img src="/logo_vce.png" alt="vce_logo" className='w-[100px] h-[100px] mr-3 object-contain gap-4' />
+          </a>
+        </div>
         <div className='cursor-pointer'onClick={() => Router.push('/')}>
+        
           <img
             src="/logo_acumen.png"
             alt="search"
             className="w-[150px] h-[200px] mr-3 object-contain gap-4"
           />
+        
         </div>
           
           <ul className='hidden gap-2 md:flex  cursor-pointer mx-11'>
