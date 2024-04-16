@@ -233,11 +233,6 @@ export const sponsorsList = [
   },
   {
     id: 'sp-9',
-    imgUrl: '/CCC.jpg',
-    title: 'CCC'
-  },
-  {
-    id: 'sp-10',
     imgUrl: '/capricot.png',
     title: 'Capricot'
   },
