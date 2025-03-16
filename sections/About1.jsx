@@ -26,12 +26,7 @@ const About1 = () => (
         Welcome to <span className="font-extrabold text-white">Acumen</span>, the ultimate platform for showcasing your technical prowess and creativity! One of the exciting events that we have in store for you is the <span className="italic text-white">Poster Presentation</span>. As an individual event, it challenges you to channel your inner artist and create a visually stunning poster that captures the essence of the assigned topic. With the right combination of images, quotes, and creativity, you will have the opportunity to present your poster to our esteemed panel of judges and compete with other talented participants. Join us at <span className="font-extrabold text-white">Acumen</span> and let your poster speak volumes about your innovative ideas!
       </motion.p>
 
-      <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
+      
     </motion.div>
   </section>
 );

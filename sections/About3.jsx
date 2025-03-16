@@ -26,12 +26,7 @@ const About = () => (
         Get ready for an explosive showcase of innovation and creativity at the <span className="font-extrabold text-white">Acumen's </span><span className="italic text-white">Project Expo</span>. We're thrilled to announce the official launch of this exciting event that celebrates the most groundbreaking projects from students across the campus. From cutting-edge tech to revolutionary social initiatives, the <span className="italic text-white">Project Expo</span> promises to be a one-of-a-kind experience that showcases the brightest minds and boldest ideas. With interactive displays, live demonstrations, and engaging presentations, you'll get a chance to witness the future being built right in front of your eyes. So mark your calendars, gather your friends and family, and get ready for a thrilling day of discovery and inspiration. The <span className="italic text-white">Project Expo</span> is not to be missed!
       </motion.p>
 
-      <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
+      
     </motion.div>
   </section>
 );

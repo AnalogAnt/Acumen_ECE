@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
-
-
+import {TitleText} from '../components'
+import { About } from '.';
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+  <section className={`${styles.yPaddings} text-center `}>
     
     <motion.div
       variants={staggerContainer}
@@ -17,40 +17,28 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="flex justify-center mt-0 items-center flex-col  z-5">
-        <motion.h2 variants={textVariant(1.2)} className={styles.heroHeading}>
-          ACUMEN
-        </motion.h2>
-        <motion.div
-          variants={textVariant(1.2)}
-          className="flex flex-row justify-center items-center"
-        >
-          <h1 className={styles.heroHeading}>ECE-2024</h1>
-        </motion.div>
-      </div>
+    <div className="flex justify-center mt-0 items-center flex-col  z-5">
+          <TitleText title="ACUMEN ECE 2025" textStyles="text-center text-[60px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text "/>
+      </div> 
+    <About />
+      <div className='hidden justify-center mt-2 md:flex pr-4'>
+          {/* <button className='border-none bg-transparent text-black mr-4'>
+            Sign In
+          </button> */}
+          <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform"
+  target="_blank"
+  rel="noreferrer"
+>
+  <button className="relative p-[2px] bg-gradient-to-r from-[#ff3bff] to-[#5C24FF] rounded-[32px]">
+    <span className="block bg-black px-6 py-4 text-white text-[16px] font-normal rounded-[30px]">
+      Register Here
+    </span>
+  </button>
+</a>
 
-      <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
-        className="relative w-full md:-mt-[20px] -mt-[12px]"
-      >
-        <div className="absolute w-full h-[300px] hero-gradient  z-[0] -top-[0px]" />
-
-        <img
-          src="/poster_main.png"
-          alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover  z-10 relative"
-        />
-
-        <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-            <img
-              src="/stamp0.png"
-              alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
-            />
-          </div>
-        </a>
-      </motion.div>
+        </div>
+      
     </motion.div>
   </section>
 );

@@ -1,7 +1,8 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{html,js,jsx}',
+    './pages/**/*.{html,js,jsx}',
     './components/**/*.{html,js,jsx}',
     './sections/**/*.{html,js,jsx}',
     './styles/**/*.{js,jsx}',
@@ -15,6 +16,9 @@ module.exports = {
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
+      },
+      fontFamily: {
+        anta: ['Anta', 'sans-serif'],
       },
     },
   },

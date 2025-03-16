@@ -26,12 +26,7 @@ const About4 = () => (
         Welcome to <span className="font-extrabold text-white">Acumen's</span> <span className="italic text-white">Technical Events</span>, where innovation and creativity meet technical expertise. This event is all about showcasing your skills and knowledge in the latest advancements in technology. With a wide range of individual and team events, you'll get the chance to demonstrate your technical prowess. From coding competitions to hardware demonstrations, problem solving to heated gameplays, experience these <span className="italic text-white">Technical Events</span> with like-minded individuals. Get ready to show the world what you're capable of at <span className="font-extrabold text-white">Acumen's</span> <span className="italic text-white">Technical Events!</span>
       </motion.p>
 
-      <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
+      
     </motion.div>
   </section>
 );

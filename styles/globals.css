@@ -6,8 +6,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.anta-font {
+  font-family: 'Anta', sans-serif !important; 
+}
+
+.custom-title {
+  @apply font-anta;
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+#explore-section {
+  scroll-margin-top: 100px; /* Adjust this value to avoid showing About */
+}
+
+.moving-gradient {
+  background-size: 200% 200%;
+  animation: gradient-move 5s infinite linear;
 }
 
 
@@ -29,7 +52,7 @@
   background: linear-gradient(
     97.86deg,
     #a509ff 0%,
-    #34acc7 53.65%,
+    #ECBFBF 53.65%,
     #a134c7 100%
   );
 }
@@ -41,7 +64,7 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
+  background: #ECBFBF;
   filter: blur(190px);
 }
 
@@ -103,12 +126,12 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
+  background: #d763d9;
   filter: blur(150px);
 }
 
 .color1 {
-  background: #131037;
+  background: black;
 }
 
 .color2 {
@@ -116,7 +139,7 @@
 }
 
 .color3 {
-  background: #054a87;
+  background: #d763d9;
 }
 
 .color4 {
@@ -124,7 +147,7 @@
 }
 
 .color5 {
-  background: #142F43;
+  background: #d763d9;
 }
 
 .color6 {
@@ -144,4 +167,6 @@
   top: 0;
   width: 100%;
 }
+
+/* styles/globals.css */
 

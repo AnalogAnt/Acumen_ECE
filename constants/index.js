@@ -1,8 +1,9 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/poster_paper.png',
+    imgUrl: '/RE-2.png',
     title: 'Paper Presentations',
+    subtitle: "Are you passionate about the latest advancements in technology? Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the Paper Presentationcompetition at Acumen.In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges. It's an opportunity to showcase your knowledge and creativity while networking with other like-minded individuals. Join us at  and put your skills to the test!",
     pageUrl: '/Paper'
   },
   {

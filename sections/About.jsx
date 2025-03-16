@@ -8,7 +8,7 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings}`}>
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
@@ -30,12 +30,7 @@ const About = () => (
         of the Acumen by scrolling down
       </motion.p>
 
-      <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
+
     </motion.div>
   </section>
 );

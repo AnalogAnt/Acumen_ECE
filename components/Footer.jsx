@@ -20,31 +20,19 @@ const Footer = () => (
   <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
     <div className="flex items-center justify-center flex-wrap gap-5">
       
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform" target="_blank" rel="noreferrer">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[26px] text-white">
-            Register Here
-          </span>
-        </button>
-      </a>
+    <a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform"
+  target="_blank"
+  rel="noreferrer"
+>
+  <button className="relative p-[2px] bg-gradient-to-r from-[#ff3bff] to-[#5C24FF] rounded-[32px]">
+    <span className="block bg-black px-6 py-4 text-white text-[16px] font-normal rounded-[30px]">
+      Register Here
+    </span>
+  </button>
+</a>
 
-      <a href="https://forms.gle/KzViUPBoMLLNnAdT9" target="_blank" rel="noreferrer">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[26px] text-white">
-            Feedback
-          </span>
-        </button>
-      </a>
+      
     </div>
 
     <div className="flex flex-col">
@@ -58,8 +46,8 @@ const Footer = () => (
         <div className='mb-5'>
           <dl className='text-white'>
             <dt className='font-bold' key='contact'>Contact:-</dt>
-            <dd key='name1'>D.Nithin: +91-7659972439 </dd>
-            <dd key='name2'>Anjana Shroff: +91-7893909029 </dd>
+            <dd key='name1'>Sai Krishna: +91-7793932508 </dd>
+            <dd key='name2'>Sai Swetha: +91-9182596791 </dd>
           </dl>
 
         </div>
@@ -72,17 +60,6 @@ const Footer = () => (
           </div>
         </div>
 
-        <div className='flex-col w-25 mb-5 text-white'>
-        <dl>
-          <dt className='font-bold'>Design team 2k24:-</dt>
-          <div className='ml-2'>
-          <dd>Vikas Bagalkot</dd>
-          <dd>Kousik Sanagavarapu</dd>
-          <dd>Kriti Anchalia</dd>
-          <dd>Kireeti Vadali</dd>
-          </div>
-        </dl>
-        </div>
         <div className="flex gap-4">
           {socials.map((social) => (
             <a href={social.url} target='_blank' rel='noreferrer'  key={social.name}>

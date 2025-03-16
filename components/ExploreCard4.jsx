@@ -10,7 +10,7 @@ import Modal from '@mui/joy/Modal';
 import ModalClose from '@mui/joy/ModalClose';
 import ModalDialog from '@mui/joy/ModalDialog';
 import { Typography } from '@mui/material';
-
+import { TitleText2 } from './CustomTexts';
 
 
 const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, open, setOpen, index, active, handleClick }) => (
@@ -43,34 +43,42 @@ const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, open, setOpen, inde
             className="w-1/2 h-1/2 object-contain" onClick={() => setOpen(true)}
           />
           <Modal
-          open={open}
-          // onClose={handleClose}
-          aria-labelledby="parent-modal-title"
-          aria-describedby="parent-modal-description"
+  open={open}
+  aria-labelledby="parent-modal-title"
+  aria-describedby="parent-modal-description"
 >
-          <ModalDialog
-            layout="center"
-            size="md"
-            variant="soft"
-          >
-            <ModalClose onClick={() => setOpen(false)} />
-            <div className='overflow-x-hidden overflow-y-auto ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto'>
-            <ModalClose onClick={() => setOpen(false)} />
-            <Typography className='imagecss font-extrabold text-[16px] leading-[20.16px] text-black uppercase'>
-            {title}
-            </Typography>
-            <Typography>
-              <img
-            src={Poster}
-            alt="headset"
-            className='imagecss' 
-          /></Typography>
-          <Typography className='imagecss italic text-[12px] leading-[20.16px] text-black '>
-            {subtitle}
-            </Typography>
-          </div>
-          </ModalDialog>
-        </Modal>
+  <ModalDialog 
+    layout="center" 
+    size="lg" 
+    variant="soft"
+    className="bg-transparent shadow-none backdrop-blur-sm flex flex-row items-center p-6 rounded-lg w-full max-w-3xl"
+    sx={{
+      display: "flex",
+      flexDirection: "row", // ✅ Forces horizontal layout
+      alignItems: "center",
+      justifyContent: "center",
+      backgroundColor: "black",  // ✅ Ensures transparency
+      boxShadow: "none",  // ✅ Removes default shadow
+    }}
+  >
+    <ModalClose onClick={() => setOpen(false)} className="absolute top-4 right-4 text-white" />
+    
+    {/* Left Side - Poster Image */}
+    <div className="w-1/2 p-4">
+      <img src={Poster} alt="Event Poster" className="w-full h-auto rounded-lg shadow-lg" />
+    </div>
+
+    {/* Right Side - Event Content */}
+    <div className="w-1/2 p-4 text-white text-center flex flex-col justify-center">
+      <TitleText2 title={title} textStyles='text-white' />
+      <Typography className="italic text-sm mt-2">
+        {subtitle}
+      </Typography>
+    </div>
+  </ModalDialog>
+</Modal>
+
+
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
           Click the Headset for the Event Poster
