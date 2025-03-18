@@ -40,9 +40,9 @@ const Navbar = ({ exploreRef }) => {
           
           <ul className='hidden gap-2  md:flex  cursor-pointer mx-11'>
           <li className='text-center flex flex-col justify-center'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-white rounded-lg group " onClick={handleScrollToExplore}><span className="px-5 py-2.5 rounded-md">Events</span></button></li>
-          <li className='text-center flex flex-col justify-center'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-white rounded-lg group" onClick={() => Router.push('/Poster')}><span className="relative px-5 py-2.5 rounded-md">
+          <li className='text-center flex flex-col justify-center'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-white rounded-lg group" onClick={() => Router.push('/')}><span className="relative px-5 py-2.5 rounded-md">
               Core Team</span></button></li>
-          <li className='text-center flex flex-col justify-center'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-white rounded-lg group" onClick={() => Router.push('/ProjectExpo')}><span className="relative px-5 py-2.5">Gallery</span></button></li>
+          <li className='text-center flex flex-col justify-center'><button className="relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-white rounded-lg group" onClick={() => Router.push('/')}><span className="relative px-5 py-2.5">Gallery</span></button></li>
           </ul>
 
           <div className='cursor-pointer'onClick={() => Router.push('/')}>
@@ -60,27 +60,10 @@ const Navbar = ({ exploreRef }) => {
         </div>
       </div>
 
-      <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
-          <li className='border-b-2 border-zinc-300 w-full cursor-pointer' onClick={() => Router.push('/Paper')}>Paper Presentations</li>
-          <li className='border-b-2 border-zinc-300 w-full cursor-pointer' onClick={() => Router.push('/Poster')}>Poster Presentations</li>
-          <li className='border-b-2 border-zinc-300 w-full cursor-pointer' onClick={() => Router.push('/ProjectExpo')}>Project Expo</li>
-          <li className='border-b-2 border-zinc-300 w-full cursor-pointer' onClick={() => Router.push('/RoboticEvents')}>Robotic Events</li>
-          <li className='border-b-2 border-zinc-300 w-full cursor-pointer' onClick={() => Router.push('/TechnicalEvents')}>Technical Events</li>
-
-        <div className='flex flex-col my-4'>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform" target="_blank" rel="noreferrer">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] hover:bg-black rounded-[32px] gap-[12px]" style={{"marginTop": "-12px"}}>
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Register Here
-          </span>
-        </button>
-        </a>
-        </div>
+      <ul className={!nav ? 'hidden' : 'absolute bg-black w-full px-8'}>
+          <li className='border-b-2 bg-black border-black text-white w-full cursor-pointer' onClick={handleScrollToExplore}>Events</li>
+          <li className='border-b-2 bg-black border-black w-full text-white cursor-pointer' onClick={() => Router.push('/')}>Core Team</li>
+          <li className='border-b-2 bg-black border-black w-full cursor-pointer text-white' onClick={() => Router.push('/')}>Gallery</li>
       </ul>
     </div>
   );

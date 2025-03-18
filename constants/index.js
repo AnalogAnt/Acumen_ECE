@@ -21,13 +21,13 @@ export const exploreWorlds = [
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Robotic Events',
+    title: 'Technical Events',
     pageUrl: '/RoboticEvents'
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Technical Events',
+    title: 'Non-Technical Events',
     pageUrl: '/TechnicalEvents'
   },
 ];
@@ -73,20 +73,42 @@ export const exploreWorlds4 = [
     open:false
     // pageUrl: '/RoboticEvents'
   },
+
   {
     id: 'world-5',
-    imgUrl: '/poster_pick.png',
-    Poster: '/poster_pick.png',
-    title: 'Pick and Run',
-    subtitle: 'The Pick and Run Competition challenges participants to design and build robots capable of autonomously or remotely picking up designated objects and placing them in specific target zones within the competition arena',
+    imgUrl:'/poster_kicad.png',
+    //imgUrl: '/cover.png',
+    Poster: '/poster_kicad.png',
+    title: 'Black Box Mystery',
+    subtitle: '',
     open:false
-    // pageUrl: '/TechnicalEvents'  
+  },
+  {
+    id: 'world-6',
+    imgUrl:'/poster_fox.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_fox.png',
+    title: 'Fox Hunt',
+    subtitle: 'Foxhunt is the simultaneous operation of two devices with overlapping frequencies. We have certain boundary ranges and few set of rules for this event. In this, we conceal the transmitter, and each team is given a receiver. They should adjust the frequency of the receiver and move in accordance with it. When the transmitter and receiver frequencies coincide, a buzzer sound is heard through headphones and as you get closer to the transmitter the sound will get clearer and louder. So your task is with the provided receiver, the people must look for the hidden transmitter.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
   },
 ];
 
-export const exploreWorlds5 = [
+export const exploreWorlds41 = [
+  
   {
-    id: 'world-1',
+    id: 'world-7',
+    imgUrl:'/poster_fox.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_fox.png',
+    title: 'Escape Room',
+    subtitle: 'Foxhunt is the simultaneous operation of two devices with overlapping frequencies. We have certain boundary ranges and few set of rules for this event. In this, we conceal the transmitter, and each team is given a receiver. They should adjust the frequency of the receiver and move in accordance with it. When the transmitter and receiver frequencies coincide, a buzzer sound is heard through headphones and as you get closer to the transmitter the sound will get clearer and louder. So your task is with the provided receiver, the people must look for the hidden transmitter.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
+  {
+    id: 'world-8',
     imgUrl: '/poster_industrize.png',
     //imgUrl: '/planet13.jpg',
     Poster: '/poster_industrize.png',
@@ -97,50 +119,7 @@ export const exploreWorlds5 = [
   },
   
   {
-    id: 'world-2',
-    imgUrl: '/poster_bug.png',
-    //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_bug.png',
-    title: 'Bug Busters',
-    subtitle: "",
-    open:false
-    // pageUrl: '/ProjectExpo'
-  },
-  {
-    id: 'world-3',
-    imgUrl:'/poster_fox.png',
-    //imgUrl: '/planet-02.png',
-    Poster: '/poster_fox.png',
-    title: 'Fox Hunt',
-    subtitle: 'Foxhunt is the simultaneous operation of two devices with overlapping frequencies. We have certain boundary ranges and few set of rules for this event. In this, we conceal the transmitter, and each team is given a receiver. They should adjust the frequency of the receiver and move in accordance with it. When the transmitter and receiver frequencies coincide, a buzzer sound is heard through headphones and as you get closer to the transmitter the sound will get clearer and louder. So your task is with the provided receiver, the people must look for the hidden transmitter.',
-    open:false
-    // pageUrl: '/InspireAndIgnite'
-  },
-  {
-    id: 'world-4',
-    imgUrl:'/poster_twisters.png',
-    //imgUrl: '/Planet25.jpg',
-    Poster: '/poster_twisters.png',
-    title: 'Technical Twisters',
-    subtitle: 'The main task of CIRCUIT HUNT is to solve the questions given in the QR codes and finally build a circuit using the answers they obtained, on a circuit building platform-multisim or by using hardware.',
-    open:false
-    // pageUrl: '/RoboticEvents'
-  },
-  {
-    id: 'world-5',
-    imgUrl:'/poster_valotopia.png',
-    //imgUrl: '/cover.png',
-    Poster: '/poster_valotopia.png',
-    title: 'Valotopia-Valorant',
-    subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
-    open:false
-    // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
-  },
-];
-
-export const exploreWorlds51 = [
-  {
-    id: 'world-6',
+    id: 'world-10',
     imgUrl:'/poster_ponggame.png',
     //imgUrl: '/planet13.jpg',
     Poster: '/poster_ponggame.png',
@@ -150,17 +129,7 @@ export const exploreWorlds51 = [
     // pageUrl: '/Poster'
   },
   {
-    id: 'world-7',
-    imgUrl:'/poster_targetpractice.png',
-    //imgUrl: '/planet-02.png',
-    Poster: '/poster_targetpractice.png',
-    title: 'Target Hit',
-    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
-    open:false
-    // pageUrl: '/InspireAndIgnite'
-  },
-  {
-    id: 'world-8',
+    id: 'world-11',
     imgUrl:'/poster_codewars.png',
     //imgUrl: '/Planet24.jpg',
     Poster: '/poster_codewars.png',
@@ -170,25 +139,138 @@ export const exploreWorlds51 = [
     // pageUrl: '/ProjectExpo'
   },
   {
-    id: 'world-9',
+    id: 'world-12',
     imgUrl:'/poster_iot.png',
     //imgUrl: '/Planet25.jpg',
     Poster: '/poster_iot.png',
-    title: 'IoT Workshop',
+    title: 'Antenna Designing',
     subtitle: '',
     open:false
     // pageUrl: '/RoboticEvents'
   },
   {
-    id: 'world-10',
+    id: 'world-13',
     imgUrl:'/poster_kicad.png',
     //imgUrl: '/cover.png',
     Poster: '/poster_kicad.png',
-    title: 'Kicad Workshop',
+    title: 'ASOC Exam',
     subtitle: '',
     open:false
   },
+]
+
+export const exploreWorlds42 = [
   
+  
+  
+]
+
+export const exploreWorlds5 = [
+  {
+    id: 'world-1',
+    imgUrl: '/poster_bug.png',
+    //imgUrl: '/Planet24.jpg',
+    Poster: '/poster_bug.png',
+    title: 'Snakes and Ladders',
+    subtitle: "",
+    open:false
+    // pageUrl: '/ProjectExpo'
+  },
+  
+  {
+    id: 'world-2',
+    imgUrl: '/poster_bug.png',
+    //imgUrl: '/Planet24.jpg',
+    Poster: '/poster_bug.png',
+    title: 'Giant Jenga',
+    subtitle: "",
+    open:false
+    // pageUrl: '/ProjectExpo'
+  },
+  
+  {
+    id: 'world-3',
+    imgUrl:'/poster_twisters.png',
+    //imgUrl: '/Planet25.jpg',
+    Poster: '/poster_twisters.png',
+    title: 'Technical Twisters',
+    subtitle: 'The main task of CIRCUIT HUNT is to solve the questions given in the QR codes and finally build a circuit using the answers they obtained, on a circuit building platform-multisim or by using hardware.',
+    open:false
+    // pageUrl: '/RoboticEvents'
+  },
+  {
+    id: 'world-4',
+    imgUrl:'/poster_valotopia.png',
+    //imgUrl: '/cover.png',
+    Poster: '/poster_valotopia.png',
+    title: 'Minute to win it',
+    subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
+    open:false
+    // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
+  },
+  {
+    id: 'world-5',
+    imgUrl:'/poster_valotopia.png',
+    //imgUrl: '/cover.png',
+    Poster: '/poster_valotopia.png',
+    title: 'Bowling/ Hit Wicket',
+    subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
+    open:false
+    // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
+  },
+];
+
+export const exploreWorlds51 = [
+  
+  
+  {
+    id: 'world-6',
+    imgUrl:'/poster_codewars.png',
+    //imgUrl: '/Planet24.jpg',
+    Poster: '/poster_codewars.png',
+    title: 'Bomb Defusal',
+    subtitle: 'Codevars is a coding competition exclusively for BE 1st and 2nd year students in which they have to solve 3 questions within a span of 60 minutes. Out of the 3 questions, one is easy, one is medium and the other is hard. Participants should bring a laptop along with them to participate in the contest.',
+    open:false
+    // pageUrl: '/ProjectExpo'
+  },
+  {
+    id: 'world-7',
+    imgUrl:'/poster_iot.png',
+    //imgUrl: '/Planet25.jpg',
+    Poster: '/poster_iot.png',
+    title: '100 to 1',
+    subtitle: '',
+    open:false
+    // pageUrl: '/RoboticEvents'
+  },
+  {
+    id: 'world-8',
+    imgUrl:'/poster_kicad.png',
+    //imgUrl: '/cover.png',
+    Poster: '/poster_kicad.png',
+    title: 'Escape Room',
+    subtitle: '',
+    open:false
+  },
+  {
+    id: 'world-9',
+    imgUrl:'/poster_kicad.png',
+    //imgUrl: '/cover.png',
+    Poster: '/poster_kicad.png',
+    title: 'Mini Golf',
+    subtitle: '',
+    open:false
+  },
+  {
+    id: 'world-10',
+    imgUrl:'/poster_targetpractice.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_targetpractice.png',
+    title: 'Target Hit',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
 ];
 
 export const sponsorsList = [

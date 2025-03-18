@@ -10,7 +10,10 @@ const Page = () => {
     <Navbar_Prim exploreRef={exploreRef}/>
     <Navbar />
     {/* <head /> */}
-    <Hero />
+      <Hero />
+
+      
+
     <div className="relative">
 
       <div id="explore-section" className="gradient-03 z-0" ref={exploreRef} />

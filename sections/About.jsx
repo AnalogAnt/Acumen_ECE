@@ -21,7 +21,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[12px] text-[10px] text-center text-secondary-white"
       >
         Are you ready to explore the future of technology? Look no further than <span className="font-extrabold text-white">Acumen!</span> This annual event is a celebration of innovation and creativity, with workshops, lectures, and competitions designed to inspire and educate attendees,
         <span className="font-extrabold text-white">Acumen</span> is the perfect platform for pushing the boundaries of what's possible in the world of technology.

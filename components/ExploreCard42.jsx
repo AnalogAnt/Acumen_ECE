@@ -14,7 +14,7 @@ import { Typography } from '@mui/material';
 import { TitleText2 } from './CustomTexts';
 
 
-const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, index, active, handleClick }) =>{ 
+const ExploreCard6 = ({ id, imgUrl, Poster, title, subtitle, index, active, handleClick }) =>{ 
   const [open, setOpen] = useState(false)
   const handleAction = () => {
       setOpen(true); // Open modal
@@ -90,5 +90,5 @@ const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, index, active, hand
   </motion.div>
 )};
 
-export default ExploreCard4;
+export default ExploreCard6;
 

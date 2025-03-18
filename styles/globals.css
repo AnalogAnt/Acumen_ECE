@@ -24,6 +24,7 @@
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
 #explore-section {
   scroll-margin-top: 100px; /* Adjust this value to avoid showing About */
 }
@@ -126,7 +127,7 @@
   left: 37%;
   bottom: 0;
 
-  background: #d763d9;
+  background: #3c025b;
   filter: blur(150px);
 }
 
@@ -139,7 +140,7 @@
 }
 
 .color3 {
-  background: #d763d9;
+  background: #0e054a;
 }
 
 .color4 {
@@ -147,11 +148,16 @@
 }
 
 .color5 {
-  background: #d763d9;
+  background: #000000;
+
+  background-size: cover;
+  
 }
 
 .color6 {
-  background: #180350;
+  background: #000000;
+
+  background-size: cover;
 }
 
 .imagecss

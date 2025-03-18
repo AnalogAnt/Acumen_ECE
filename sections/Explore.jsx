@@ -23,7 +23,7 @@ const Explore = () => {
 
         <TitleText
           title={<>The Events</>}
-          textStyles="text-center text-white"
+          textStyles="text-center text-white text-[40px]"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (

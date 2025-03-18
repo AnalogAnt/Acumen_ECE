@@ -14,7 +14,7 @@ import { Typography } from '@mui/material';
 import { TitleText2 } from './CustomTexts';
 
 
-const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, index, active, handleClick }) =>{ 
+const ExploreCard = ({ id, imgUrl, Poster, title, subtitle, index, active, handleClick }) =>{ 
   const [open, setOpen] = useState(false)
   const handleAction = () => {
       setOpen(true); // Open modal
@@ -43,7 +43,7 @@ const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, index, active, hand
       <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px] ">
         {/* Button for More Info / Modal Open */}
         <div
-          className={`${styles.flexCenter} h-[60px] rounded-[24px] glassmorphism mb-[16px] bg-sky-500 hover:bg-sky-700`}
+          className={`${styles.flexCenter} h-[60px] rounded-[24px] glassmorphism mb-[16px] bg-sky-500 hover:bg-sky-700 `}
           onClick={handleAction}// Calls handleAction function
         >
           <p className="object-contain font-normal text-[16px] leading-[20.16px] text-white uppercase" >
@@ -90,5 +90,5 @@ const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, index, active, hand
   </motion.div>
 )};
 
-export default ExploreCard4;
+export default ExploreCard;
 

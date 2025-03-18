@@ -18,12 +18,12 @@ const Explore = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col will-change-transform will-change-opacity`}
       >
-        <TypingText title="| The Events" textStyles="text-center" />
+      
         <TitleText
-          title={<>Browse through the Events <br className="md:block hidden" /> for a Quickstart</>}
-          textStyles="text-center"
+          title={<>The Events</>}
+          textStyles="text-center text-white text-[40px]"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds5.map((world, index) => (
@@ -32,8 +32,6 @@ const Explore = () => {
               {...world}
               index={index}
               active={active}
-              open={open}
-              setOpen={setOpen}
               handleClick={setActive}
             />
           ))}
@@ -45,8 +43,7 @@ const Explore = () => {
               {...world}
               index={index}
               active={active}
-              open={open}
-              setOpen={setOpen}
+
               handleClick={setActive}
             />
           ))}

@@ -19,6 +19,7 @@ module.exports = {
       },
       fontFamily: {
         anta: ['Anta', 'sans-serif'],
+        mono: ['Space Mono', 'monospace'],
       },
     },
   },
