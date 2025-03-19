@@ -2,45 +2,42 @@
 
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
-
 import { motion } from 'framer-motion';
 import { TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
-
-
 import { sponsorsList } from '../constants';
-
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
 import styles from '../styles';
 
 const Sponsors = () => {
-
   const [windowWidth, setWindowWidth] = useState(undefined);
 
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-    handleResize(); // set initial value
+    handleResize(); // Set initial value
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   // Only render the slider when windowWidth is defined
   if (!windowWidth) return null;
-  
 
-  const containerSize = windowWidth / 4 - 20; // calculate the container size based on the screen width and number of containers
+  // ✅ Improved container size calculation for better responsiveness
+  let slidesToShow = 4; // Default for large screens
+  if (windowWidth < 1024) slidesToShow = 3; // Medium screens
+  if (windowWidth < 768) slidesToShow = 2; // Tablets
+  if (windowWidth < 480) slidesToShow = 1; // Small phones
 
   const settings = {
     dots: false,
     arrows: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     draggable: true,
     autoplay: true,
@@ -49,19 +46,14 @@ const Sponsors = () => {
   };
 
   const sponsorItems = sponsorsList.map((sponsor) => (
-    <div
-      key={sponsor.id}
-      className="p-4"
-      style={{ padding: "0 10px", width: `${containerSize}px` }}
-    >
+    <div key={sponsor.id} className="p-4">
       <div
+        className="bg-white flex items-center justify-center rounded-xl mx-auto"
         style={{
-          backgroundColor: "white",
-          height: `${containerSize}px`,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          borderRadius: "14px",
+          width: "90%", // ✅ Increase size on mobile
+          maxWidth: "200px", // ✅ Prevent overly large logos
+          height: "120px", // ✅ Increase height for better visibility
+          boxShadow: "0px 4px 8px rgba(0,0,0,0.1)", // ✅ Slight shadow for better appearance
         }}
       >
         <img
@@ -69,10 +61,11 @@ const Sponsors = () => {
           src={sponsor.imgUrl}
           alt={sponsor.title}
           style={{
-            height: "auto",
             width: "auto",
-            maxHeight: "100%",
-            maxWidth: "100%",
+            maxWidth: "80%",
+            height: "auto",
+            maxHeight: "80%",
+            margin: "auto",
           }}
         />
       </div>
@@ -90,7 +83,7 @@ const Sponsors = () => {
       >
         <TypingText title="| Sponsors" textStyles="text-center" />
       </motion.div>
-      <div style={{ width: "75%", margin: "0 auto" }}>
+      <div className="w-full max-w-5xl mx-auto px-4">
         <Slider {...settings}>{sponsorItems}</Slider>
       </div>
     </section>

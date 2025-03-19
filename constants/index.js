@@ -3,7 +3,7 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/RE-2.png',
     title: 'Paper Presentations',
-    subtitle: "Are you passionate about the latest advancements in technology? Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the Paper Presentationcompetition at Acumen.In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges. It's an opportunity to showcase your knowledge and creativity while networking with other like-minded individuals. Join us at  and put your skills to the test!",
+    subtitle: "Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the Paper Presentation competition at Acumen.In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges.",
     pageUrl: '/Paper'
   },
   {
@@ -93,10 +93,6 @@ export const exploreWorlds4 = [
     open:false
     // pageUrl: '/InspireAndIgnite'
   },
-];
-
-export const exploreWorlds41 = [
-  
   {
     id: 'world-7',
     imgUrl:'/poster_fox.png',
@@ -157,13 +153,7 @@ export const exploreWorlds41 = [
     subtitle: '',
     open:false
   },
-]
-
-export const exploreWorlds42 = [
-  
-  
-  
-]
+];
 
 export const exploreWorlds5 = [
   {
@@ -218,11 +208,6 @@ export const exploreWorlds5 = [
     open:false
     // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
   },
-];
-
-export const exploreWorlds51 = [
-  
-  
   {
     id: 'world-6',
     imgUrl:'/poster_codewars.png',
@@ -271,6 +256,12 @@ export const exploreWorlds51 = [
     open:false
     // pageUrl: '/InspireAndIgnite'
   },
+];
+
+export const exploreWorlds51 = [
+  
+  
+ 
 ];
 
 export const sponsorsList = [
@@ -405,7 +396,7 @@ export const socials = [
   {
     name: 'instagram',
     imgUrl: '/instagram.svg',
-    url:'https://www.instagram.com/acumen_ece2024'
+    url:'https://www.instagram.com/acumen.ece/'
   },
   //{
   //  name: 'facebook',

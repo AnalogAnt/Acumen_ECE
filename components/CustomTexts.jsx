@@ -37,3 +37,13 @@ export const TitleText2 = ({ title, textStyles }) => (
     {title}
   </motion.h2>
 );
+export const TitleText3 = ({ title, textStyles }) => (
+  <motion.h2
+    variants={textVariant2}
+    initial="hidden"
+    whileInView="show"
+    className={`mt-[8px] font-bold font-anta md:text-[43px]  text-white ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
+);

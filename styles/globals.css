@@ -156,8 +156,9 @@
 
 .color6 {
   background: #000000;
-
   background-size: cover;
+  width:100%;
+
 }
 
 .imagecss
@@ -176,3 +177,33 @@
 
 /* styles/globals.css */
 
+.swiper {
+  width: 100% ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px !important;
+  height: 500px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  padding:20px !important;
+
+}
+
+.swiper-slide-img {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+.img-div
+{
+  width: 300px !important;
+  height: 500px !important;
+  margin-bottom: 10px !important;
+}

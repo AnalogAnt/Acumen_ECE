@@ -6,16 +6,16 @@ const TechnicalEvents = () => {
   return (
   <div className="bg-primary-black overflow-hidden color6">
     <Navbar_Prim />
-    <div className="gradient-03 z-0" />
-    <div className="bg-[url('/Acumen_25.png')] w-100vw bg-cover  h-screen">
+    <div className="gradient-01 z-0" />
+    <div className="bg-[url('/Acumen_25.png')] bg-cover  h-screen">
     <Hero5 />
     </div>
     <div className="relative">
 
-      <div className="gradient-03 z-0" />
-      <Explore5 />
       <div className="gradient-04 z-0" />
+      <Explore5 />
 
+ 
     </div>
     {/* <div className="relative">
       <Feedback />
