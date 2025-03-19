@@ -38,7 +38,7 @@ const Explore = () => {
       >
         <TitleText title="The Events" textStyles="text-center text-white text-[40px]" />
 
-
+        
         <Swiper
           effect="coverflow"
           grabCursor={true}
