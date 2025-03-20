@@ -7,12 +7,13 @@ const TechnicalEvents = () => {
   <div className="bg-primary-black overflow-hidden color6">
     <Navbar_Prim />
     <div className="gradient-01 z-0" />
-    <div className="bg-[url('/Acumen_25.png')] bg-cover  h-screen">
+    <div className="bg-[url('/non_tech.jpeg')] bg-cover bg-opacity-0 text-center h-screen flex flex-col justify-center items-center p-5">
+    <div class="absolute inset-0 bg-black/50 "></div>
     <Hero5 />
     </div>
     <div className="relative">
 
-      <div className="gradient-04 z-0" />
+      <div className="gradient-08 z-0" />
       <Explore5 />
 
  

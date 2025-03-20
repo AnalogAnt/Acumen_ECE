@@ -51,10 +51,7 @@ const Explore = () => {
             modifier: 1,
             slideShadows: false,
           }}
-          navigation={{
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          }}
+          navigation={true}
           lazy={true}
           touchStartForcePreventDefault={false} 
           touchReleaseOnEdges={true} 

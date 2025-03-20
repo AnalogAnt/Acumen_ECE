@@ -15,6 +15,7 @@ export default function Document() {
           rel="stylesheet" 
         />
         <link hreg="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel='stylesheet' />
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
       </Head>
 
       <body>

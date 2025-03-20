@@ -14,6 +14,12 @@
 .anta-font {
   font-family: 'Anta', sans-serif !important; 
 }
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.press-start-font {
+  font-family: 'Press Start 2P', cursive;
+}
+
 
 .custom-title {
   @apply font-anta;
@@ -206,4 +212,26 @@
   width: 300px !important;
   height: 500px !important;
   margin-bottom: 10px !important;
+}
+
+.gradient-07 {
+  position: absolute;
+  width: 304px;
+  height: 100vh;
+  left: 30%;
+  top: 10%;
+
+  background: rgb(184, 15, 74);
+  filter: blur(200px);
+  transform: rotate(-53.13deg);
+}.gradient-08 {
+  position: absolute;
+  width: 304px;
+  height: 100vh;
+  left: 30%;
+  top: 10%;
+
+  background: rgb(17, 3, 171);
+  filter: blur(200px);
+  transform: rotate(-53.13deg);
 }

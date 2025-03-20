@@ -38,6 +38,17 @@ const Explore = () => {
       >
         <TitleText title="The Events" textStyles="text-center text-white text-[40px]" />
 
+        <style jsx>{`
+  :global(.swiper-button-prev),
+  :global(.swiper-button-next) {
+    color: red !important; /* Change button color to red */
+  }
+
+  :global(.swiper-button-prev:hover),
+  :global(.swiper-button-next:hover) {
+    color: darkred !important; /* Darker red on hover */
+  }
+`}</style>
         
         <Swiper
           effect="coverflow"
@@ -51,11 +62,9 @@ const Explore = () => {
             modifier: 1,
             slideShadows: false,
           }}
-          navigation={{
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          }}
+          
           lazy={true}
+          navigation={true}
           touchStartForcePreventDefault={false} 
           touchReleaseOnEdges={true} 
           modules={[EffectCoverflow, Navigation]}
@@ -72,8 +81,10 @@ const Explore = () => {
                 />
               </div>
               <TitleText3 textStyles="text-[22px] mt-4 text-center" title={world.title} />
+              
             </SwiperSlide>
           ))}
+          
         </Swiper>
 
 
