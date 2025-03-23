@@ -34,14 +34,12 @@ const Navbar = ({ exploreRef }) => {
           </div>
           
           <ul className="hidden md:flex gap-2 cursor-pointer mx-11">
-            {isGalleryPage && (
-              <li className="text-center flex flex-col justify-center">
-                <button className="relative inline-flex items-center justify-center p-0.5 mb-2 text-sm font-medium text-white rounded-lg group"
-                  onClick={() => Router.push('/')}>
-                  <span className="px-5 py-2.5 rounded-md">Home</span>
-                </button>
-              </li>
-            )}
+            <li className="text-center flex flex-col justify-center">
+              <button className="relative inline-flex items-center justify-center p-0.5 mb-2 text-sm font-medium text-white rounded-lg group"
+                onClick={() => Router.push('/')}>
+                <span className="px-5 py-2.5 rounded-md">Home</span>
+              </button>
+            </li>
             <li className="text-center flex flex-col justify-center">
               <button className="relative inline-flex items-center justify-center p-0.5 mb-2 text-sm font-medium text-white rounded-lg group"
                 onClick={handleScrollToExplore}>
@@ -75,13 +73,11 @@ const Navbar = ({ exploreRef }) => {
         </div>
 
         <ul className={!nav ? 'hidden' : 'absolute bg-black w-full px-8'}>
-          {isGalleryPage && (
-            <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer" onClick={() => Router.push('/')}>Home</li>
-          )}
-          <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer" onClick={handleScrollToExplore}>Events</li>
-          <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer" onClick={() => Router.push('/')}>Core Team</li>
+          <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer py-2" onClick={() => Router.push('/')}>Home</li>
+          <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer py-2" onClick={handleScrollToExplore}>Events</li>
+          <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer py-2" onClick={() => Router.push('/')}>Core Team</li>
           {!isGalleryPage && (
-            <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer" onClick={() => Router.push('/gallery')}>Gallery</li>
+            <li className="border-b-2 bg-black border-black text-white w-full cursor-pointer py-2" onClick={() => Router.push('/gallery')}>Gallery</li>
           )}
         </ul>
       </div>
