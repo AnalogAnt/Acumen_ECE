@@ -403,3 +403,89 @@ export const socials = [
    // imgUrl: '/facebook.svg',
   //},
 ];
+
+
+// Core Team Members Data
+export const coreTeam = [
+  {
+    department: "Overall Coordinators",
+    members: [
+      { name: "Swetha", imgUrl: "/swetha.jpg" },
+      { name: "Saikrishna", imgUrl: "/saikrishna.jpg" },
+    ],
+  },
+  {
+    department: "HR",
+    members: [
+      { name: "Gayatri", imgUrl: "/gayatri.jpg" },
+      { name: "Samhitha", imgUrl: "/lakshmisamhitha.jpg" },
+    ],
+  },
+  {
+    department: "Accounting and Finance",
+    members: [
+      { name: "Sandeep", imgUrl: "/sandeep.jpg" },
+      { name: "Chaitanya", imgUrl: "/chaitanya.jpg" },
+    ],
+  },
+  {
+    department: "Marketing",
+    members: [
+      { name: "Ruthwika", imgUrl: "/ruthwika.jpg" },
+      { name: "Maansa", imgUrl: "/maansa.jpg" },
+    ],
+  },
+  {
+    department: "Designing",
+    members: [
+      { name: "Eshwar", imgUrl: "/eshwar.JPG" },
+      { name: "Sowmya", imgUrl: "/sowmya.jpg" }
+    ],
+  },
+  {
+    department: "Web Technologies",
+    members: [
+      { name: "Vikas", imgUrl: "/vikas.jpg" },
+      { name: "Keerthi", imgUrl: "/keerthi.jpg" },
+    ],
+  },
+  {
+    department: "Sponsorships",
+    members: [
+      { name: "AAN Mahesree", imgUrl: "/mahesree.jpg" },
+      { name: "Anjali", imgUrl: "/anjali.jpg" },
+    ],
+  },
+  {
+    department: "Logistics",
+    members: [
+      { name: "Rushikesh", imgUrl: "/rushikesh.JPG" },
+      { name: "Sainath", imgUrl: "/sainath.jpg" },
+    ],
+  },
+  {
+    department: "Tech Events",
+    members: [
+      { name: "Shivakalyan", imgUrl: "/shivakalyan.jpg" },
+      { name: "Karthikeya", imgUrl: "/kartikeya.jpg" },
+    ],
+  },
+  {
+    department: "Non-Tech Events",
+    members: [
+      { name: "Ananya", imgUrl: "/ananya.jpg" },
+      { name: "Keerthana", imgUrl: "/keerthana.jpg" },
+    ],
+  },
+];
+export const devsTeam = [
+  {
+    department: "Dev Team",
+    members: [
+      { name: "Kriti", imgUrl: "/kriti.jpg" },
+      { name: "Sahithya", imgUrl: "/sahithya.jpg" },
+      { name: "Mohsin", imgUrl: "/mohsin.png" },
+      
+    ],
+  },
+];
