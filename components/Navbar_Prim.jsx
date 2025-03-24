@@ -62,7 +62,7 @@ const Navbar = ({ exploreRef }) => {
           <li className="text-center flex flex-col justify-center">
             <button
               className="relative inline-flex items-center justify-center p-0.5 mb-2 text-sm font-medium text-white rounded-lg group"
-              onClick={() => Router.push("/")}
+              onClick={() => Router.push("/core-team")}
             >
               <span className="px-5 py-2.5 rounded-md">Core Team</span>
             </button>
@@ -108,7 +108,7 @@ const Navbar = ({ exploreRef }) => {
         </li>
         <li
           className="border-b-2 bg-black border-black text-white w-full cursor-pointer py-2"
-          onClick={() => Router.push("/")}
+          onClick={() => Router.push("/core-team")}
         >
           Core Team
         </li>
