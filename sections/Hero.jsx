@@ -25,7 +25,7 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto p-0 flex flex-col justify-center relative z-10 will-change-transform will-change-opacity`}
     >
       <div className="flex flex-col justify-center items-center z-5 mt-0">
-        <div className="block md:hidden">
+        {/* <div className="block md:hidden">
           <TitleText 
             title={<>ACUMEN<br />ECE<br />2025</>}
             textStyles="text-center text-[55px] xs:text-[65px] sm:text-[80px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move leading-tight"
@@ -34,10 +34,21 @@ const Hero = () => (
         <div className="hidden md:block">
           <TitleText 
             title="ACUMEN ECE 2025"
-            textStyles="text-center text-[70px] lg:text-[100px] xl:text-[120px] 2xl:text-[140px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move whitespace-nowrap"
+            textStyles="text-center text-[90px] lg:text-[120px] xl:text-[140px] 2xl:text-[160px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
           />
-        </div>
+        </div> */}
+
+        <div className="flex flex-col justify-center items-center z-5 mt-0">
+          <TitleText title="ACUMEN ECE 2025" textStyles="text-center text-[70px] lg:text-[90px] xl:text-[90px] 2xl:text-[90px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move "/>
+        </div> 
+
+        
+        
       </div> 
+
+      
+      
+
 
       <div className='hidden justify-center mt-2 mb-36 md:flex pr-4'>
         <a

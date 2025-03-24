@@ -14,56 +14,56 @@ const Gallery = () => {
     {
       type: 'image',
       src: '/2024event_pic1.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Event Highlights'
+      title: 'Robo sumo',
+      // description: 'Event Highlights'
     },
     {
       type: 'image',
       src: '/2024event_pic2.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Event Moments'
+      title: 'Inspire and Ignite',
+      // description: 'Event Moments'
     },
     {
       type: 'image',
       src: '/2024event_pic3.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Event Showcase'
+      title: 'Robo Soccer',
+      // description: 'Event Showcase'
     },
     {
       type: 'image',
       src: '/2024event_pic4.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Event Activities'
+      title: 'Robo Soccer',
+      // description: 'Event Activities'
     },
     {
       type: 'image',
       src: '/2024event_pic5.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Event Celebrations'
+      title: 'Robo Soccer',
+      // description: 'Event Celebrations'
     },
     {
       type: 'image',
       src: '/2024event_pic6.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Technical Showcase'
+      title: 'Tug Of War',
+      // description: 'Technical Showcase'
     },
     {
       type: 'image',
       src: '/2024event_pic7.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Innovation Display'
+      title: 'Tug of War',
+      // description: 'Innovation Display'
     },
     {
       type: 'image',
       src: '/2024event_pic8.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Project Presentations'
+      title: 'Inspire and Ignite',
+      // description: 'Project Presentations'
     },
     {
       type: 'image',
       src: '/2024event_pic9.jpg',
-      title: 'Acumen ECE 2025',
-      description: 'Event Excellence'
+      title: 'Inspire and Ignite',
+      // description: 'Event Excellence'
     }
   ];
 
@@ -89,7 +89,16 @@ const Gallery = () => {
         >
           <source src="/2024event_video1.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        {/* */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/90 opacity-60 group-hover:opacity-90 transition-opacity duration-500"></div>
+        
+        {/*  */}
+        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-6 pb-0 md:pb-6 text-white transform translate-y-0 md:translate-y-6 md:group-hover:translate-y-0 transition-transform duration-500">
+          <h3 className="text-[#00c6ff] text-xl md:text-2xl font-bold mb-2 group-hover:scale-105 transition-transform duration-500
+            group-hover:text-[#40e0ff] drop-shadow-[0_0_8px_rgba(0,198,255,0.5)]">
+            RC Racing
+          </h3>
+        </div>
       </div>
     );
   };
@@ -135,6 +144,7 @@ const Gallery = () => {
                 style={{ 
                   animationDelay: `${index * 150}ms`,
                   height: `${Math.floor(Math.random() * (600 - 400 + 1)) + 400}px`
+                  // marginBottom: "1rem"
                 }}
               >
                 <div className="w-full h-full relative">
