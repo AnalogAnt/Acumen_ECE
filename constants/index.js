@@ -439,7 +439,7 @@ export const coreTeam = [
   {
     department: "Designing",
     members: [
-      { name: "Eshwar", imgUrl: "/eshwar.JPG" },
+      { name: "Eshwar", imgUrl: "/eshwar.jpg" },
       { name: "Sowmya", imgUrl: "/sowmya.jpg" }
     ],
   },
@@ -460,7 +460,7 @@ export const coreTeam = [
   {
     department: "Logistics",
     members: [
-      { name: "Rushikesh", imgUrl: "/rushikesh.JPG" },
+      { name: "Rushikesh", imgUrl: "/rushikesh.jpg" },
       { name: "Sainath", imgUrl: "/sainath.jpg" },
     ],
   },
