@@ -108,7 +108,7 @@ export const exploreWorlds4 = [
     imgUrl: '/poster_industrize.png',
     //imgUrl: '/planet13.jpg',
     Poster: '/poster_industrize.png',
-    title: 'Industrize and Ideathon',
+    title: 'Industrize',
     subtitle: 'In this event you need to provide ideas for the given industry problems to jury persons.The below link contains the list of problem statements provided by different organizations.',
     open:false
     // pageUrl: '/Poster'
@@ -433,7 +433,7 @@ export const coreTeam = [
     department: "Marketing",
     members: [
       { name: "Ruthwika", imgUrl: "/ruthwika.jpg" },
-      { name: "Maansa", imgUrl: "/maansa.jpg" },
+      { name: "Manasa", imgUrl: "/maansa.jpg" },
     ],
   },
   {
