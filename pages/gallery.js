@@ -23,12 +23,7 @@ const Gallery = () => {
       title: 'Inspire and Ignite',
       // description: 'Event Moments'
     },
-    {
-      type: 'image',
-      src: '/2024event_pic3.jpg',
-      title: 'Robo Soccer',
-      // description: 'Event Showcase'
-    },
+
     {
       type: 'image',
       src: '/2024event_pic4.jpg',
@@ -56,12 +51,36 @@ const Gallery = () => {
     {
       type: 'image',
       src: '/2024event_pic8.jpg',
-      title: 'Inspire and Ignite',
+      title: 'Project Expo',
       // description: 'Project Presentations'
     },
     {
       type: 'image',
       src: '/2024event_pic9.jpg',
+      title: 'Inspire and Ignite',
+      // description: 'Event Excellence'
+    },
+    {
+      type: 'image',
+      src: '/2024_fox.jpg',
+      title: 'Fox Hunt',
+      // description: 'Event Excellence'
+    },
+    {
+      type: 'image',
+      src: '/2024_industrize.jpg',
+      title: 'Industrize',
+      // description: 'Event Excellence'
+    },
+    {
+      type: 'image',
+      src: '/2024_poster_and_paper.jpg',
+      title: 'Paper and Poster Presentation',
+      // description: 'Event Excellence'
+    },
+    {
+      type: 'image',
+      src: '/2024_inspire.jpg',
       title: 'Inspire and Ignite',
       // description: 'Event Excellence'
     }
@@ -135,21 +154,18 @@ const Gallery = () => {
           </div>
 
           {/* Masonry Grid */}
-          <div className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
+          {/* Masonry Grid with Fixed Alignment */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {galleryItems.map((item, index) => (
               <div 
                 key={index}
-                className="break-inside-avoid group rounded-xl overflow-hidden transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/20
+                className="group rounded-xl overflow-hidden transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/20
                 animate-fade-in-up opacity-0"
-                style={{ 
-                  animationDelay: `${index * 150}ms`,
-                  height: `${Math.floor(Math.random() * (600 - 400 + 1)) + 400}px`
-                  // marginBottom: "1rem"
-                }}
+                style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div className="w-full h-full relative">
                   <div 
-                    className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-96 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
                     style={{ backgroundImage: `url(${item.src})` }}
                   >
                     {/* Enhanced Gradient Overlay */}
@@ -171,6 +187,7 @@ const Gallery = () => {
               </div>
             ))}
           </div>
+
         </div>
       </div>
 

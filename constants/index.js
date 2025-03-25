@@ -1,32 +1,32 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/RE-2.png',
+    imgUrl: '/paper_presentation.jpg',
     title: 'Paper Presentations',
     subtitle: "Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the Paper Presentation competition at Acumen.In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges.",
     pageUrl: '/Paper'
   },
   {
     id: 'world-2',
-    imgUrl: '/poster_poster.png',
+    imgUrl: '/poster_posterpre.jpg',
     title: 'Poster Presentations',
     pageUrl: '/Poster'
   },
   {
     id: 'world-3',
-    imgUrl: '/poster_project.png',
+    imgUrl: '/project_expo.jpg',
     title: 'Project Expo',
     pageUrl: '/ProjectExpo'
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/tech_events.jpg',
     title: 'Technical Events',
     pageUrl: '/RoboticEvents'
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/notech.jpg',
     title: 'Non-Technical Events',
     pageUrl: '/TechnicalEvents'
   },
@@ -402,4 +402,91 @@ export const socials = [
   //  name: 'facebook',
    // imgUrl: '/facebook.svg',
   //},
+];
+
+
+
+// Core Team Members Data
+export const coreTeam = [
+  {
+    department: "Overall Coordinators",
+    members: [
+      { name: "Swetha", imgUrl: "/swetha.jpg" },
+      { name: "Saikrishna", imgUrl: "/saikrishna.jpg" },
+    ],
+  },
+  {
+    department: "HR",
+    members: [
+      { name: "Gayatri", imgUrl: "/gayatri.jpg" },
+      { name: "Samhitha", imgUrl: "/lakshmisamhitha.jpg" },
+    ],
+  },
+  {
+    department: "Accounting and Finance",
+    members: [
+      { name: "Sandeep", imgUrl: "/sandeep.jpg" },
+      { name: "Chaitanya", imgUrl: "/chaitanya.jpg" },
+    ],
+  },
+  {
+    department: "Marketing",
+    members: [
+      { name: "Ruthwika", imgUrl: "/ruthwika.jpg" },
+      { name: "Maansa", imgUrl: "/maansa.jpg" },
+    ],
+  },
+  {
+    department: "Designing",
+    members: [
+      { name: "Eshwar", imgUrl: "/eshwar.JPG" },
+      { name: "Sowmya", imgUrl: "/sowmya.jpg" }
+    ],
+  },
+  {
+    department: "Web Technologies",
+    members: [
+      { name: "Vikas", imgUrl: "/vikas.jpg" },
+      { name: "Keerthi", imgUrl: "/keerthi.jpg" },
+    ],
+  },
+  {
+    department: "Sponsorships",
+    members: [
+      { name: "AAN Mahesree", imgUrl: "/mahesree.jpg" },
+      { name: "Anjali", imgUrl: "/anjali.jpg" },
+    ],
+  },
+  {
+    department: "Logistics",
+    members: [
+      { name: "Rushikesh", imgUrl: "/rushikesh.JPG" },
+      { name: "Sainath", imgUrl: "/sainath.jpg" },
+    ],
+  },
+  {
+    department: "Tech Events",
+    members: [
+      { name: "Shivakalyan", imgUrl: "/shivakalyan.jpg" },
+      { name: "Karthikeya", imgUrl: "/kartikeya.jpg" },
+    ],
+  },
+  {
+    department: "Non-Tech Events",
+    members: [
+      { name: "Ananya", imgUrl: "/ananya.jpg" },
+      { name: "Keerthana", imgUrl: "/keerthana.jpg" },
+    ],
+  },
+];
+export const devsTeam = [
+  {
+    department: "Dev Team",
+    members: [
+      { name: "Kriti", imgUrl: "/kriti.jpg" },
+      { name: "Sahithya", imgUrl: "/sahithya.jpg" },
+      { name: "Mohsin", imgUrl: "/mohsin.png" },
+
+    ],
+  },
 ];

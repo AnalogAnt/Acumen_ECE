@@ -42,6 +42,7 @@ const ExploreCard = ({ id, imgUrl, title, subtitle, Poster, pageUrl, index, acti
       } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer will-change-transform will-change-opacity`}
       onMouseOver={() => handleClick(id)}
     >
+
       <img
         src={imgUrl}
         alt="planet-04"
@@ -90,6 +91,7 @@ const ExploreCard = ({ id, imgUrl, title, subtitle, Poster, pageUrl, index, acti
 
           
           <div className={`p-4 ${isMobile ? 'w-full' : 'w-1/2'}`}>
+          
             <img src={imgUrl} alt="Event Poster" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
 

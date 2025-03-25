@@ -5,18 +5,14 @@ import { motion } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
-import {TitleText,TypingText} from '../components'
+import { TitleText, TypingText } from '../components';
 import { About } from '.';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} relative h-screen text-center flex flex-col justify-start`}>
-    {/* Background Image with Overlay */}
-    <div 
-      className="absolute inset-0 bg-[url('/Acumen_25.png')] bg-cover bg-center bg-no-repeat"
-    >
-      <div className="absolute inset-0 bg-black/30"></div>
-    </div>
-    
+  <section 
+    className={`${styles.yPaddings} h-screen text-center flex flex-col justify-start 
+    bg-cover bg-[url('/main.png')] sm:bg-[url('/Acumen_25.png')]`}
+  >
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -38,9 +34,13 @@ const Hero = () => (
           />
         </div> */}
 
-        <div className="flex flex-col justify-center items-center z-5 mt-0">
-          <TitleText title="ACUMEN ECE 2025" textStyles="text-center text-[70px] lg:text-[90px] xl:text-[90px] 2xl:text-[90px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move "/>
-        </div> 
+        <div className="flex flex-col justify-center items-center z-5 mt-10 md:mt-0">
+          <TitleText 
+            title="ACUMEN ECE 2025" 
+            textStyles="text-center text-[70px] lg:text-[90px] xl:text-[90px] 2xl:text-[90px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
+          />
+        </div>
+
 
         
         
@@ -57,7 +57,7 @@ const Hero = () => (
           rel="noreferrer"
         >
           <button className="relative p-[2px] bg-gradient-to-r from-[#ff3bff] to-[#5C24FF] rounded-[32px]">
-            <span className="block bg-black px-6 py-4 text-white text-[16px] font-normal rounded-[30px]">
+            <span className="block bg-black px-4 py-4 text-white text-[16px] font-normal rounded-[30px]">
               Register Here
             </span>
           </button>
