@@ -1,32 +1,32 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/paper_presentation.jpg',
+    imgUrl: '/paper_main.jpeg',
     title: 'Paper Presentations',
     subtitle: "Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the Paper Presentation competition at Acumen.In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges.",
     pageUrl: '/Paper'
   },
   {
     id: 'world-2',
-    imgUrl: '/poster_posterpre.jpg',
+    imgUrl: '/poster_main.jpeg',
     title: 'Poster Presentations',
     pageUrl: '/Poster'
   },
   {
     id: 'world-3',
-    imgUrl: '/project_expo.jpg',
+    imgUrl: '/project_expo_main.jpeg',
     title: 'Project Expo',
     pageUrl: '/ProjectExpo'
   },
   {
     id: 'world-4',
-    imgUrl: '/tech_events.jpg',
+    imgUrl: '/tech_main.jpeg',
     title: 'Technical Events',
     pageUrl: '/RoboticEvents'
   },
   {
     id: 'world-5',
-    imgUrl: '/notech.jpg',
+    imgUrl: '/non_tech_main.jpeg',
     title: 'Non-Technical Events',
     pageUrl: '/TechnicalEvents'
   },
