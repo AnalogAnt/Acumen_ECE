@@ -416,6 +416,20 @@ export const coreTeam = [
     ],
   },
   {
+    department: "Tech Events",
+    members: [
+      { name: "Shivakalyan", imgUrl: "/shivakalyan.jpg" },
+      { name: "Karthikeya", imgUrl: "/kartikeya.jpg" },
+    ],
+  },
+  {
+    department: "Non-Tech Events",
+    members: [
+      { name: "Ananya", imgUrl: "/ananya.jpg" },
+      { name: "Keerthana", imgUrl: "/keerthana.jpg" },
+    ],
+  },
+  {
     department: "HR",
     members: [
       { name: "Gayatri", imgUrl: "/gayatri.jpg" },
@@ -464,20 +478,7 @@ export const coreTeam = [
       { name: "Sainath", imgUrl: "/sainath.jpg" },
     ],
   },
-  {
-    department: "Tech Events",
-    members: [
-      { name: "Shivakalyan", imgUrl: "/shivakalyan.jpg" },
-      { name: "Karthikeya", imgUrl: "/kartikeya.jpg" },
-    ],
-  },
-  {
-    department: "Non-Tech Events",
-    members: [
-      { name: "Ananya", imgUrl: "/ananya.jpg" },
-      { name: "Keerthana", imgUrl: "/keerthana.jpg" },
-    ],
-  },
+  
 ];
 export const devsTeam = [
   {
