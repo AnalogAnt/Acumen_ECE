@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="flex items-center justify-between h-50 flex-wrap gap-4">
 
             <h4 className="w-screen font-extrabold mb-2 text-[24px] text-white">
-              ACUMEN
+              ACUMEN ECE
             </h4>
             <div className='mb-5'>
               <dl className='text-white'>
@@ -59,9 +59,13 @@ const Footer = () => {
             <div className='flex-col w-25 mb-5'>
               <div className='flex flex-col gap-2'>
                 <p className='text-white '><span className='font-bold'>Address:-</span> Vasavi College of Engineering, Ibrahim Bagh, <br />Hyderabad, Telangana 500031</p>
-                <a href='https://maps.app.goo.gl/Fvpc2fscM3xVzH1q6' key='maps' className='text-sky-500 underline' target="_blank" rel="noreferrer">
-                  MAPS
-                </a>
+                <div className="">
+                  <a href="https://maps.app.goo.gl/3mLZbXydNwfadCDU6" target="_blank" rel="noopener noreferrer" className='w-[100px] h-[100px]'>
+                    <img src="/maps.png" alt="VCE Logo" className="w-[40px] h-[70px] object-contain" />
+                  </a>
+                </div>
+
+
               </div>
             </div>
 

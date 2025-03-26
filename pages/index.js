@@ -30,7 +30,7 @@ const Page = () => {
       <div className="gradient-04 z-0" />
       
     </div>*/}
-    <Sponsors />
+    {/*<Sponsors />*/}
     <Footer />
   </div>);
 };

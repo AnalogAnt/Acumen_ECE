@@ -26,7 +26,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-5',
-    imgUrl: '/non_tech_main.jpeg',
+    imgUrl: '/nontech_main.jpeg',
     title: 'Non-Technical Events',
     pageUrl: '/TechnicalEvents'
   },
@@ -416,14 +416,14 @@ export const coreTeam = [
     ],
   },
   {
-    department: "Tech Events",
+    department: "Coordinators for Technical Events",
     members: [
       { name: "Shivakalyan", imgUrl: "/shivakalyan.jpg" },
       { name: "Karthikeya", imgUrl: "/kartikeya.jpg" },
     ],
   },
   {
-    department: "Non-Tech Events",
+    department: "Coordinators for Non-Technical Events",
     members: [
       { name: "Ananya", imgUrl: "/ananya.jpg" },
       { name: "Keerthana", imgUrl: "/keerthana.jpg" },
@@ -447,7 +447,7 @@ export const coreTeam = [
     department: "Marketing",
     members: [
       { name: "Ruthwika", imgUrl: "/ruthwika.jpg" },
-      { name: "Manasa", imgUrl: "/maansa.jpg" },
+      { name: "Maanasa", imgUrl: "/maansa.jpg" },
     ],
   },
   {
@@ -475,7 +475,7 @@ export const coreTeam = [
     department: "Logistics",
     members: [
       { name: "Rushikesh", imgUrl: "/rushikesh.jpg" },
-      { name: "Sainath", imgUrl: "/sainath.jpg" },
+      { name: "Sainadh", imgUrl: "/sainath.jpg" },
     ],
   },
   

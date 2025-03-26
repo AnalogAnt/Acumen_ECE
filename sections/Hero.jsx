@@ -10,7 +10,7 @@ import { About } from '.';
 
 const Hero = () => (
   <section 
-    className={`${styles.yPaddings} h-screen text-center flex flex-col justify-start 
+    className={` h-screen text-center flex flex-col justify-start 
     bg-cover bg-[url('/main.png')] sm:bg-[url('/Acumen_25.png')]`}
   >
     <motion.div
@@ -18,9 +18,9 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto p-0 flex flex-col justify-center relative z-10 will-change-transform will-change-opacity`}
+      className={`${styles.innerWidth} mx-auto p-0 flex flex-col justify-start relative z-10 will-change-transform will-change-opacity`}
     >
-      <div className="flex flex-col justify-center items-center z-5 mt-0">
+      <div className="flex flex-col justify-start items-center z-5 mt-0">
         {/* <div className="block md:hidden">
           <TitleText 
             title={<>ACUMEN<br />ECE<br />2025</>}
@@ -34,10 +34,14 @@ const Hero = () => (
           />
         </div> */}
 
-        <div className="flex flex-col justify-center items-center z-5 mt-10 md:mt-0">
+        <div className="flex flex-col justify-start items-center z-5 mt-10 md:mt-0">
           <TitleText 
-            title="ACUMEN ECE 2025" 
+            title="ACUMEN ECE" 
             textStyles="text-center text-[70px] lg:text-[90px] xl:text-[90px] 2xl:text-[90px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
+          />
+          <TitleText 
+            title="10-04-2025" 
+            textStyles="text-center text-[40px] lg:text-[60px] xl:text-[60px] 2xl:text-[60px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
           />
         </div>
 
@@ -50,13 +54,13 @@ const Hero = () => (
       
 
 
-      <div className='hidden justify-center mt-2 mb-36 md:flex pr-4'>
+      <div className='flex flex-row items-center justify-center mt-2 mb-36 md:flex pr-4'>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform"
           target="_blank"
           rel="noreferrer"
         >
-          <button className="relative p-[2px] bg-gradient-to-r from-[#ff3bff] to-[#5C24FF] rounded-[32px]">
+          <button className=" p-[2px] align-middle bg-gradient-to-r from-[#ff3bff] to-[#5C24FF] rounded-[32px]">
             <span className="block bg-black px-4 py-4 text-white text-[16px] font-normal rounded-[30px]">
               Register Here
             </span>
