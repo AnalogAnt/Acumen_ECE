@@ -37,11 +37,11 @@ const Hero = () => (
         <div className="flex flex-col justify-start items-center z-5 mt-10 md:mt-0">
           <TitleText 
             title="ACUMEN ECE" 
-            textStyles="text-center text-[70px] lg:text-[90px] xl:text-[90px] 2xl:text-[90px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
+            textStyles="text-center text-[70px] lg:text-[90px] xl:text-[90px] 2xl:text-[90px] font-anta bg-gradient-to-r moving-gradient from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
           />
           <TitleText 
             title="10-04-2025" 
-            textStyles="text-center text-[40px] lg:text-[60px] xl:text-[60px] 2xl:text-[60px] font-anta bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
+            textStyles="text-center text-[40px] lg:text-[60px] xl:text-[60px] 2xl:text-[60px] font-anta moving-gradient bg-gradient-to-r from-[#ff3bff] via-[#ECBFBF] via-[#5C24FF] to-[#D94FD5] text-transparent bg-clip-text gradient-move"
           />
         </div>
 

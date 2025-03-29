@@ -48,7 +48,7 @@ export const exploreWorlds4 = [
     imgUrl:'/poster_thrust.png',
     //imgUrl: '/RE-1.png',
     Poster: '/poster_thrust.png',
-    title: 'Tug Of War',
+    title: 'Robo Thrust',
     subtitle: 'Get ready for ultimate Showdown at Acumen 2024(ECE). Robo-Tug of War is a modernized version of the classic game that replaces human participants with team-controlled robotic arms or devices. Robo-Tug of War mixes the timeless appeal of tug of war with the excitement of robotics, providing an unforgettable experience for both participants and spectators.',
     open:false
     // pageUrl: '/InspireAndIgnite'
@@ -98,7 +98,7 @@ export const exploreWorlds4 = [
     imgUrl:'/poster_fox.png',
     //imgUrl: '/planet-02.png',
     Poster: '/poster_fox.png',
-    title: 'Escape Room',
+    title: 'Target Hit',
     subtitle: 'Foxhunt is the simultaneous operation of two devices with overlapping frequencies. We have certain boundary ranges and few set of rules for this event. In this, we conceal the transmitter, and each team is given a receiver. They should adjust the frequency of the receiver and move in accordance with it. When the transmitter and receiver frequencies coincide, a buzzer sound is heard through headphones and as you get closer to the transmitter the sound will get clearer and louder. So your task is with the provided receiver, the people must look for the hidden transmitter.',
     open:false
     // pageUrl: '/InspireAndIgnite'
@@ -119,7 +119,7 @@ export const exploreWorlds4 = [
     imgUrl:'/poster_ponggame.png',
     //imgUrl: '/planet13.jpg',
     Poster: '/poster_ponggame.png',
-    title: 'The Pong Game',
+    title: 'Pong Game',
     subtitle: 'The pong game is the two-dimensional game that simulates table tennis kind of competition.It consists of a ball bouncing on a screen and each of the players is provided with slider to hit the ball.The position of slider is adjusted using a knob which will be provided at the either sides of the screen.',
     open:false
     // pageUrl: '/Poster'
@@ -139,20 +139,12 @@ export const exploreWorlds4 = [
     imgUrl:'/poster_iot.png',
     //imgUrl: '/Planet25.jpg',
     Poster: '/poster_iot.png',
-    title: 'Antenna Designing',
+    title: 'Laser Room',
     subtitle: '',
     open:false
     // pageUrl: '/RoboticEvents'
   },
-  {
-    id: 'world-13',
-    imgUrl:'/poster_kicad.png',
-    //imgUrl: '/cover.png',
-    Poster: '/poster_kicad.png',
-    title: 'ASOC Exam',
-    subtitle: '',
-    open:false
-  },
+
 ];
 
 export const exploreWorlds5 = [
@@ -246,16 +238,48 @@ export const exploreWorlds5 = [
     subtitle: '',
     open:false
   },
+
   {
-    id: 'world-10',
+    id: 'world-11',
     imgUrl:'/poster_targetpractice.png',
     //imgUrl: '/planet-02.png',
     Poster: '/poster_targetpractice.png',
-    title: 'Target Hit',
+    title: 'Movie Quiz',
     subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
     open:false
     // pageUrl: '/InspireAndIgnite'
   },
+  {
+    id: 'world-12',
+    imgUrl:'/poster_targetpractice.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_targetpractice.png',
+    title: 'Guess the meme',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
+  {
+    id: 'world-13',
+    imgUrl:'/poster_targetpractice.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_targetpractice.png',
+    title: 'Friendship Meter',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
+  {
+    id: 'world-14',
+    imgUrl:'/poster_targetpractice.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_targetpractice.png',
+    title: 'Spin the wheel & give tasks',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
+  
 ];
 
 export const exploreWorlds51 = [
