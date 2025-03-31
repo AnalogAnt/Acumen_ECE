@@ -291,49 +291,23 @@ export const exploreWorlds51 = [
 export const sponsorsList = [
   {
     id: 'sp-1',
-    imgUrl: '/mathworks.jpg',
-    title: 'MathWorks'
+    imgUrl: '/st.png',
+    title: 'Student Tribe'
   },
+
   {
     id: 'sp-2',
-    imgUrl: '/suchirindia.png',
-    title: 'suchirindia'
+    imgUrl: '/vaalukaSolutions.png',
+    title: 'Vaaluka Solutions',
+
   },
+
   {
     id: 'sp-3',
-    imgUrl: '/vishalPeripherals.jfif',
-    title: 'Vishal Peripherals'
-  },
-  {
-    id: 'sp-4',
-    imgUrl: '/PCB.png',
-    title: 'Telangana PCB'
-  },
-  {
-    id: 'sp-5',
-    imgUrl: '/vaalukaSolutions.png',
-    title: 'Vaaluka Solutions'
-  },
-  {
-    id: 'sp-6',
-    imgUrl: '/oppo.png',
-    title: 'oppo'
-  },
-  {
-    id: 'sp-7',
     imgUrl: '/SPS_logo.png',
     title: 'Sri Play School'
   },
-  {
-    id: 'sp-8',
-    imgUrl: '/Alumni.png',
-    title: 'Alumni'
-  },
-  {
-    id: 'sp-9',
-    imgUrl: '/capricot.png',
-    title: 'Capricot'
-  },
+
 ];
 
 export const startingFeatures = [

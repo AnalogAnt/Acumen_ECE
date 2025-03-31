@@ -26,7 +26,7 @@ const Footer = () => {
           
           {!isGalleryPage && (
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeb6zczOuTsxp_SIuijQcE67rkeUSqOhORpVfwbROt9CSSzfw/viewform"
+              href="https://events.studenttribe.in/event/67e63e31e5c536d5ced28d72"
               target="_blank"
               rel="noreferrer"
             >

@@ -27,7 +27,7 @@ const Sponsors = () => {
   if (!windowWidth) return null;
 
   // ✅ Improved container size calculation for better responsiveness
-  let slidesToShow = 4; // Default for large screens
+  let slidesToShow = 3; // Default for large screens
   if (windowWidth < 1024) slidesToShow = 3; // Medium screens
   if (windowWidth < 768) slidesToShow = 2; // Tablets
   if (windowWidth < 480) slidesToShow = 1; // Small phones
@@ -78,7 +78,7 @@ const Sponsors = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
         <TypingText title="| Sponsors" textStyles="text-center" />

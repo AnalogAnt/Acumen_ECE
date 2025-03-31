@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
 const Feedback = () => (
   <section className={`${styles.paddings}`}>
@@ -12,47 +12,28 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
+      className={`${styles.innerWidth} mx-auto flex flex-col lg:flex-row items-center gap-6 border-[1px] border-[#6A6A6A] rounded-[32px] p-6`}
     >
+      <motion.img
+        variants={fadeIn('left', 'tween', 0.2, 1)}
+        src="/hod.jpg"
+        alt="HOD"
+        className="w-[150px] h-[150px] object-cover rounded-full border-4 border-white shadow-lg"
+      />
+      
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="flex-1 text-center lg:text-left"
       >
-        <div className="feedback-gradient" />
-        <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Dr. E. Sreenivasa Rao
-          </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            ECE | HOD
-          </p>
-        </div>
-
+        <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+          Dr. E. Sreenivasa Rao
+        </h4>
+        <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+          ECE | HOD
+        </p>
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
           “Striving for excellence in teaching, training and research in the areas of Electronics and Communication Engineering and fostering ethical values.”
         </p>
-      </motion.div>
-
-      <motion.div
-        variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="relative flex-1 flex justify-center items-center"
-      >
-        <img
-          src="/planet-09.png"
-          alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-        />
-
-        <motion.div
-          variants={zoomIn(0.4, 1)}
-          className="lg:block hidden absolute -left-[10%] top-[3%]"
-        >
-          <img
-            src="/stamp0.png"
-            alt="stamp"
-            className="w-[155px] h-[155px] object-contain"
-          />
-        </motion.div>
       </motion.div>
     </motion.div>
   </section>
