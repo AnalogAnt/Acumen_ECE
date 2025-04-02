@@ -19,6 +19,12 @@
 .press-start-font {
   font-family: 'Press Start 2P', cursive;
 }
+button {
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+}
 
 
 .custom-title {
