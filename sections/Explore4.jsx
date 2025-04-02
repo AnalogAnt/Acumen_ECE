@@ -76,7 +76,7 @@ const Explore = () => {
                 <img
                   src={world.Poster}
                   alt={world.title}
-                  className="w-full h-full object-fill rounded-xl pointer-events-none" 
+                  className="w-full h-full object-contain rounded-xl pointer-events-none" 
                   loading="lazy"
                 />
               </div>
