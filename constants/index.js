@@ -212,7 +212,7 @@ export const exploreWorlds5 = [
     imgUrl:'/poster_light_camer.png',
     //imgUrl: '/planet-02.png',
     Poster: '/poster_light_camer.png',
-    title: 'Lights - Camera - Quiz',
+    title: 'Lights, Camera, Quiz!',
     subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
     open:false
     // pageUrl: '/InspireAndIgnite'
@@ -258,7 +258,17 @@ export const exploreWorlds5 = [
     // pageUrl: '/ProjectExpo'
     // pageUrl: '/InspireAndIgnite'
   },
-  
+  {
+    id: 'world-13',
+    imgUrl: '/poster_valotopia.png',
+    //imgUrl: '/Planet24.jpg',
+    Poster: '/poster_valotopia.png',
+    title: 'Gamer\'s Arena',
+    subtitle: "",
+    open:false
+    // pageUrl: '/ProjectExpo'
+    // pageUrl: '/InspireAndIgnite'
+  },
 ];
 
 export const exploreWorlds51 = [];
