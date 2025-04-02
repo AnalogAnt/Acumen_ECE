@@ -56,12 +56,12 @@ const Footer = () => {
               </dl>
 
             </div>
-            <div className='flex-col w-25 mb-5'>
-              <div className='flex flex-col gap-2'>
+            <div className='flex-col mb-5'>
+              <div className='flex flex-row justify-center align-middle items-center gap-3'>
                 <p className='text-white '><span className='font-bold'>Address:-</span> Vasavi College of Engineering, Ibrahim Bagh, <br />Hyderabad, Telangana 500031</p>
                 <div className="">
-                  <a href="https://maps.app.goo.gl/3mLZbXydNwfadCDU6" target="_blank" rel="noopener noreferrer" className='w-[100px] h-[100px]'>
-                    <img src="/maps.png" alt="VCE Logo" className="w-[40px] h-[70px] object-contain" />
+                  <a href="https://maps.app.goo.gl/3mLZbXydNwfadCDU6" target="_blank" rel="noopener noreferrer" className='cursor-pointer'>
+                    <img src="/maps.png" alt="maps" className="object-contain cursor-pointer w-[40px] h-[100px] " />
                   </a>
                 </div>
 
@@ -77,8 +77,10 @@ const Footer = () => {
                     alt={social.name}
                     className="w-[44px] h-[44px] object-contain cursor-pointer"
                   />
+                  <label className='text-white'>{social.name}</label>
                 </a>
               ))}
+              
             </div>
             
           </div>

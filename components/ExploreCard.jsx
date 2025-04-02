@@ -92,7 +92,7 @@ const ExploreCard = ({ id, imgUrl, title, subtitle, Poster, pageUrl, index, acti
           
           <div className={`p-4 ${isMobile ? 'w-full' : 'w-1/2'}`}>
           
-            <img src={imgUrl} alt="Event Poster" className="w-full h-auto rounded-lg shadow-lg" />
+            <img src={Poster} alt="Event Poster" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
 
           

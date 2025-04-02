@@ -31,7 +31,7 @@ const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, index, active, hand
     <img
       src={imgUrl}
       alt="planet-04"
-      className="absolute w-full h-full object-cover rounded-[24px]"
+      className="absolute w-full h-full object-contain rounded-[24px]"
     />
     {active !== id ? (
       

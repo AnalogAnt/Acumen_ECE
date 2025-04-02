@@ -72,11 +72,11 @@ const Explore = () => {
         >
           {exploreWorlds4.map((world) => (
             <SwiperSlide key={world.id} className="flex justify-center">
-              <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-[60vh] max-h-[400px]">
+              <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-[60vh]  max-h-[400px]">
                 <img
                   src={world.Poster}
                   alt={world.title}
-                  className="w-full h-full object-cover rounded-lg pointer-events-none" 
+                  className="w-full h-full object-fill rounded-xl pointer-events-none" 
                   loading="lazy"
                 />
               </div>

@@ -2,6 +2,7 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/paper_main.jpeg',
+    Poster:'/poster_paper_presentation.png',
     title: 'Paper Presentations',
     subtitle: "Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the Paper Presentation competition at Acumen.In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges.",
     pageUrl: '/Paper'
@@ -10,12 +11,16 @@ export const exploreWorlds = [
     id: 'world-2',
     imgUrl: '/poster_main.jpeg',
     title: 'Poster Presentations',
+    Poster:'/poster_poster_presentation.png',
+    subtitle:"Do you want to showcase your creativity and technical knowledge? If so, we have the perfect event for you – the Poster Presentation competition at Acumen! In this individual event, participants will explore innovative concepts in Electronics and Communication Engineering (ECE) and design a visually compelling and informative poster. Participants will then present their ideas to a panel of expert judges, effectively communicating key insights in an engaging and impactful way.",
     pageUrl: '/Poster'
   },
   {
     id: 'world-3',
     imgUrl: '/project_expo_main.jpeg',
     title: 'Project Expo',
+    Poster:'/poster_project_expo.png',
+    subtitle:"Do you want to witness innovation in action? If so, don’t miss the Project Expo at Acumen! This exhibition showcases a diverse range of Electronics and Communication Engineering (ECE) projects, where participants present their cutting-edge solutions, working prototypes, and innovative ideas. Explore groundbreaking technologies, interact with creators, and gain insights into the latest advancements in the field. Whether you’re an enthusiast or an expert, the Project Expo is the perfect place to experience ECE innovation firsthand!",
     pageUrl: '/ProjectExpo'
   },
   {
@@ -35,11 +40,12 @@ export const exploreWorlds = [
 export const exploreWorlds4 = [
   {
     id: 'world-1',
-    imgUrl:'/poster_soccer.png',
-    //imgUrl: '/planet-09.png',
-    Poster: '/poster_soccer.png',
-    title: 'Robo Soccer',
-    subtitle: 'Robot Soccer is a robot sport, where robot machines compete against each other in a variation of the game of Association Football (soccer). In robot soccer, each team is fully autonomous.',
+    
+    imgUrl:'/poster_rcracing.png',
+    //imgUrl: '/RE-5.jpg',
+    Poster: '/poster_rcracing.png',
+    title: 'RC Racing',
+    subtitle: "All men are afraid in battle. Live daringly, boldly, fearlessly. Taste the relish to be found in a battle - in having put forth the best within you. The time to take counsel of your fears is before you make an important decision. That's the time to listen to every fear you can imagine! When you have collected all the facts and fears and made your decision, turn off all your fears and go ahead! Welcome to RC Racing 24: Where Attitude is a little thing that makes a big difference.",
     open:false
     // pageUrl: '/Poster'
   },
@@ -55,9 +61,9 @@ export const exploreWorlds4 = [
   },
   {
     id: 'world-3',
-    imgUrl:'/robo_sumo.png',
+    imgUrl:'/poster_robo_sumo.png',
     //imgUrl: '/RE-3.png',
-    Poster: '/robo_sumo.png',
+    Poster: '/poster_robo_sumo.png',
     title: 'Robo Sumo',
     subtitle: 'Prepare for an electrifying clash of metal and circuits at the Robo Sumo Showdown! This year, we invite you to witness the titans of robotics as they battle for supremacy in the arena. Inspired by the ancient mythological giants, teams will unleash their colossal creations, each a marvel of modern engineering and innovation.',
     open:false
@@ -65,21 +71,21 @@ export const exploreWorlds4 = [
   },
   {
     id: 'world-4',
-    imgUrl:'/poster_rcracing.png',
-    //imgUrl: '/RE-5.jpg',
-    Poster: '/poster_rcracing.png',
-    title: 'RC Racing',
-    subtitle: "All men are afraid in battle. Live daringly, boldly, fearlessly. Taste the relish to be found in a battle - in having put forth the best within you. The time to take counsel of your fears is before you make an important decision. That's the time to listen to every fear you can imagine! When you have collected all the facts and fears and made your decision, turn off all your fears and go ahead! Welcome to RC Racing 24: Where Attitude is a little thing that makes a big difference.",
+    imgUrl:'/poster_soccer.png',
+    //imgUrl: '/planet-09.png',
+    Poster: '/poster_soccer.png',
+    title: 'Robo Soccer',
+    subtitle: 'Robot Soccer is a robot sport, where robot machines compete against each other in a variation of the game of Association Football (soccer). In robot soccer, each team is fully autonomous.',
     open:false
     // pageUrl: '/RoboticEvents'
   },
 
   {
     id: 'world-5',
-    imgUrl:'/poster_kicad.png',
+    imgUrl:'/poster_mystery_box.png',
     //imgUrl: '/cover.png',
-    Poster: '/poster_kicad.png',
-    title: 'Black Box Mystery',
+    Poster: '/poster_mystery_box.png',
+    title: 'Mystery Box',
     subtitle: '',
     open:false
   },
@@ -95,9 +101,9 @@ export const exploreWorlds4 = [
   },
   {
     id: 'world-7',
-    imgUrl:'/poster_fox.png',
+    imgUrl:'/poster_targetpractice.png',
     //imgUrl: '/planet-02.png',
-    Poster: '/poster_fox.png',
+    Poster: '/poster_targetpractice.png',
     title: 'Target Hit',
     subtitle: 'Foxhunt is the simultaneous operation of two devices with overlapping frequencies. We have certain boundary ranges and few set of rules for this event. In this, we conceal the transmitter, and each team is given a receiver. They should adjust the frequency of the receiver and move in accordance with it. When the transmitter and receiver frequencies coincide, a buzzer sound is heard through headphones and as you get closer to the transmitter the sound will get clearer and louder. So your task is with the provided receiver, the people must look for the hidden transmitter.',
     open:false
@@ -115,7 +121,7 @@ export const exploreWorlds4 = [
   },
   
   {
-    id: 'world-10',
+    id: 'world-9',
     imgUrl:'/poster_ponggame.png',
     //imgUrl: '/planet13.jpg',
     Poster: '/poster_ponggame.png',
@@ -124,50 +130,31 @@ export const exploreWorlds4 = [
     open:false
     // pageUrl: '/Poster'
   },
-  {
-    id: 'world-11',
-    imgUrl:'/poster_codewars.png',
-    //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_codewars.png',
-    title: 'CodeVars',
-    subtitle: 'Codevars is a coding competition exclusively for BE 1st and 2nd year students in which they have to solve 3 questions within a span of 60 minutes. Out of the 3 questions, one is easy, one is medium and the other is hard. Participants should bring a laptop along with them to participate in the contest.',
-    open:false
-    // pageUrl: '/ProjectExpo'
-  },
-  {
-    id: 'world-12',
-    imgUrl:'/poster_iot.png',
-    //imgUrl: '/Planet25.jpg',
-    Poster: '/poster_iot.png',
-    title: 'Laser Room',
-    subtitle: '',
-    open:false
-    // pageUrl: '/RoboticEvents'
-  },
 
 ];
 
 export const exploreWorlds5 = [
   {
     id: 'world-1',
-    imgUrl: '/poster_bug.png',
-    //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_bug.png',
-    title: 'Snakes and Ladders',
-    subtitle: "",
+    
+    imgUrl:'/poster_meme.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_meme.png',
+    title: 'Meme Guru',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
     open:false
     // pageUrl: '/ProjectExpo'
   },
   
   {
     id: 'world-2',
-    imgUrl: '/poster_bug.png',
-    //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_bug.png',
-    title: 'Giant Jenga',
-    subtitle: "",
+    
+    imgUrl:'/poster_diamond_heist.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_diamond_heist.png',
+    title: 'Diamond Heist',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
     open:false
-    // pageUrl: '/ProjectExpo'
   },
   
   {
@@ -182,111 +169,99 @@ export const exploreWorlds5 = [
   },
   {
     id: 'world-4',
-    imgUrl:'/poster_valotopia.png',
-    //imgUrl: '/cover.png',
-    Poster: '/poster_valotopia.png',
-    title: 'Minute to win it',
-    subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
+    
+    imgUrl:'/poster_friendship.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_friendship.png',
+    title: 'Friendship Meter',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
     open:false
     // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
   },
   {
     id: 'world-5',
-    imgUrl:'/poster_valotopia.png',
-    //imgUrl: '/cover.png',
-    Poster: '/poster_valotopia.png',
-    title: 'Bowling/ Hit Wicket',
-    subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
-    open:false
-    // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
-  },
-  {
-    id: 'world-6',
-    imgUrl:'/poster_codewars.png',
-    //imgUrl: '/Planet24.jpg',
-    Poster: '/poster_codewars.png',
-    title: 'Bomb Defusal',
-    subtitle: 'Codevars is a coding competition exclusively for BE 1st and 2nd year students in which they have to solve 3 questions within a span of 60 minutes. Out of the 3 questions, one is easy, one is medium and the other is hard. Participants should bring a laptop along with them to participate in the contest.',
-    open:false
-    // pageUrl: '/ProjectExpo'
-  },
-  {
-    id: 'world-7',
-    imgUrl:'/poster_iot.png',
+    imgUrl:'/poster_100_to_1.png',
     //imgUrl: '/Planet25.jpg',
-    Poster: '/poster_iot.png',
-    title: '100 to 1',
+    Poster: '/poster_100_to_1.png',
+    title: 'Fastest Fingers First',
     subtitle: '',
     open:false
     // pageUrl: '/RoboticEvents'
   },
   {
-    id: 'world-8',
-    imgUrl:'/poster_kicad.png',
+    id: 'world-6',
+    imgUrl:'/poster_escape_room.png',
     //imgUrl: '/cover.png',
-    Poster: '/poster_kicad.png',
+    Poster: '/poster_escape_room.png',
     title: 'Escape Room',
     subtitle: '',
     open:false
   },
   {
-    id: 'world-9',
-    imgUrl:'/poster_kicad.png',
+    id: 'world-7',
+    imgUrl:'/poster_golf_showdown.png',
     //imgUrl: '/cover.png',
-    Poster: '/poster_kicad.png',
-    title: 'Mini Golf',
+    Poster: '/poster_golf_showdown.png',
+    title: 'Golf Showdown',
     subtitle: '',
     open:false
   },
 
   {
-    id: 'world-11',
-    imgUrl:'/poster_targetpractice.png',
+    id: 'world-8',
+    imgUrl:'/poster_light_camer.png',
     //imgUrl: '/planet-02.png',
-    Poster: '/poster_targetpractice.png',
-    title: 'Movie Quiz',
+    Poster: '/poster_light_camer.png',
+    title: 'Lights - Camera - Quiz',
+    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
+  {
+    id: 'world-9',
+    imgUrl: '/poster_snakes_and_ladders.png',
+    //imgUrl: '/Planet24.jpg',
+    Poster: '/poster_snakes_and_ladders.png',
+    title: 'Snakes and Ladders',
+    subtitle: "",
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
+  {
+    id: 'world-10',
+    imgUrl:'/poster_minute_to_win.png',
+    //imgUrl: '/cover.png',
+    Poster: '/poster_minute_to_win.png',
+    title: 'Minute to win it',
+    subtitle: 'A LAN Gaming is a valorant League organized for those who are enthusiastic about PC gaming. You have to bring your own laptops and a LAN connection is provided from our end for seamless experience while playing.',
+    open:false
+    // pageUrl: '/InspireAndIgnite'
+  },
+  {
+    id: 'world-11',
+    imgUrl:'/poster_wheel_glory.png',
+    //imgUrl: '/planet-02.png',
+    Poster: '/poster_wheel_glory.png',
+    title: 'Wheel of Glory',
     subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
     open:false
     // pageUrl: '/InspireAndIgnite'
   },
   {
     id: 'world-12',
-    imgUrl:'/poster_targetpractice.png',
-    //imgUrl: '/planet-02.png',
-    Poster: '/poster_targetpractice.png',
-    title: 'Guess the meme',
-    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
+    imgUrl: '/poster_giant_jenga.png',
+    //imgUrl: '/Planet24.jpg',
+    Poster: '/poster_giant_jenga.png',
+    title: 'Giant Jenga',
+    subtitle: "",
     open:false
-    // pageUrl: '/InspireAndIgnite'
-  },
-  {
-    id: 'world-13',
-    imgUrl:'/poster_targetpractice.png',
-    //imgUrl: '/planet-02.png',
-    Poster: '/poster_targetpractice.png',
-    title: 'Friendship Meter',
-    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
-    open:false
-    // pageUrl: '/InspireAndIgnite'
-  },
-  {
-    id: 'world-14',
-    imgUrl:'/poster_targetpractice.png',
-    //imgUrl: '/planet-02.png',
-    Poster: '/poster_targetpractice.png',
-    title: 'Spin the wheel & give tasks',
-    subtitle: 'We always boast about our aim in FPS games with our friends. Target practice is a fun way to test our aim in real life. Target practice works by a random target going up with an LDR sensor right at the bull’s eye. Our gun here has a laser which when shot right at the LDR sensor the score count goes up and another random target pops up. In about a minute’s time, the person with maximum score wins the game.',
-    open:false
+    // pageUrl: '/ProjectExpo'
     // pageUrl: '/InspireAndIgnite'
   },
   
 ];
 
-export const exploreWorlds51 = [
-  
-  
- 
-];
+export const exploreWorlds51 = [];
 
 export const sponsorsList = [
   {
@@ -392,8 +367,8 @@ export const socials = [
   //  imgUrl: '/linkedin.svg',
  // },
   {
-    name: 'instagram',
-    imgUrl: '/instagram.svg',
+    name: 'acumen.ece',
+    imgUrl: '/instagram.png',
     url:'https://www.instagram.com/acumen.ece/'
   },
   //{

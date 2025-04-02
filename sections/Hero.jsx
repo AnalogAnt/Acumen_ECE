@@ -10,8 +10,8 @@ import { About } from '.';
 
 const Hero = () => (
   <section 
-    className="h-screen text-center flex flex-col justify-start 
-    bg-cover sm:bg-[url('/Acumen_25.png')]"
+    className={`${styles.yPaddings} h-screen text-center flex flex-col justify-start 
+    bg-cover sm:bg-[url('/Acumen_25.png')]`}
   >
     <motion.div
       variants={staggerContainer}

@@ -65,7 +65,7 @@ const CoreTeam = () => {
 
         {/* ✅ Dev Team Section */}
         <h1 className="text-center text-3xl md:text-4xl font-bold mt-10 md:mt-14 mb-6 md:mb-10">
-          Dev Team
+          Web Dev
         </h1>
 
         {/* ✅ Slideshow for Small Screens */}
@@ -88,8 +88,8 @@ const CoreTeam = () => {
 </div>
 
 
-        {/* ✅ Static Grid for Large Screens */}
-        {/* ✅ Static Grid for Large Screens */}
+
+
 <div className="hidden sm:flex flex-wrap justify-center gap-10 w-full max-w-5xl mb-10 md:mb-14">
   {devsTeam[0].members.map((member, idx) => (
     <div key={idx} className="flex flex-col items-center">
