@@ -4,7 +4,7 @@ export const exploreWorlds = [
     imgUrl: '/paper_main.jpeg',
     Poster:'/poster_paper_presentation.png',
     title: 'Paper Presentations',
-    subtitle: "Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the Paper Presentation competition at Acumen.In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges.",
+    subtitle: "Showcase your research and presentation skills at Acumen’s Paper Presentation competition! Dive into the latest tech research by referring to an IEEE paper on given themes. Create an engaging PowerPoint and present it to expert judges.",
     pageUrl: '/Paper'
   },
   {
@@ -12,7 +12,7 @@ export const exploreWorlds = [
     imgUrl: '/poster_main.jpeg',
     title: 'Poster Presentations',
     Poster:'/poster_poster_presentation.png',
-    subtitle:"Do you want to showcase your creativity and technical knowledge? If so, we have the perfect event for you – the Poster Presentation competition at Acumen! In this individual event, participants will explore innovative concepts in Electronics and Communication Engineering (ECE) and design a visually compelling and informative poster. Participants will then present their ideas to a panel of expert judges, effectively communicating key insights in an engaging and impactful way.",
+    subtitle:"Showcase your creativity and technical knowledge at Acumen’s Poster Presentation! Design a compelling poster on ECE concepts and present it to expert judges.",
     pageUrl: '/Poster'
   },
   {
@@ -20,7 +20,7 @@ export const exploreWorlds = [
     imgUrl: '/project_expo_main.jpeg',
     title: 'Project Expo',
     Poster:'/poster_project_expo.png',
-    subtitle:"Do you want to witness innovation in action? If so, don’t miss the Project Expo at Acumen! This exhibition showcases a diverse range of Electronics and Communication Engineering (ECE) projects, where participants present their cutting-edge solutions, working prototypes, and innovative ideas. Explore groundbreaking technologies, interact with creators, and gain insights into the latest advancements in the field. Whether you’re an enthusiast or an expert, the Project Expo is the perfect place to experience ECE innovation firsthand!",
+    subtitle:"Experience innovation at Acumen’s Project Expo! Explore cutting-edge ECE projects, interact with creators, and witness groundbreaking technologies firsthand.",
     pageUrl: '/ProjectExpo'
   },
   {

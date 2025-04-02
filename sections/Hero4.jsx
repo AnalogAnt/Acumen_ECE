@@ -16,7 +16,7 @@ const Hero4 = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col justify-center will-change-transform will-change-opacity`}
     >
       <div className="flex justify-center items-center flex-col relative py-8 z-10">
-        <TitleText title="Technical Events" textStyles="text-center text-[90px] font-anta bg-gradient-to-r from-white to-gray-300 text-transparent bg-clip-text font-bold drop-shadow-lg gradient-move "/>
+        <TitleText title="Technical Events" textStyles="text-center text-[75px] font-anta bg-gradient-to-r from-white to-gray-300 text-transparent bg-clip-text font-bold drop-shadow-lg gradient-move sm:text-[90px]"/>
       </div>
 
       
