@@ -27,7 +27,7 @@ const Sponsors = () => {
   if (!windowWidth) return null;
 
   // ✅ Improved container size calculation for better responsiveness
-  let slidesToShow = 3; // Default for large screens
+  let slidesToShow = 4; // Default for large screens
   if (windowWidth < 1024) slidesToShow = 3; // Medium screens
   if (windowWidth < 768) slidesToShow = 2; // Tablets
   if (windowWidth < 480) slidesToShow = 1; // Small phones

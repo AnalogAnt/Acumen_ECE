@@ -292,6 +292,16 @@ export const sponsorsList = [
     imgUrl: '/SPS_logo.png',
     title: 'Sri Play School'
   },
+  {
+    id:'sp-4',
+    imgUrl:'/stack_logo.jpg',
+    title: 'Stack Aid'
+  },
+  {
+    id:'sp-5',
+    imgUrl:'/acutronic.jpg',
+    title: 'Acutronics'
+  }
 
 ];
 
