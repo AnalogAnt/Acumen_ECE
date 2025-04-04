@@ -130,7 +130,16 @@ export const exploreWorlds4 = [
     open:false
     // pageUrl: '/Poster'
   },
-
+  {
+    id: 'world-10',
+    imgUrl:'/poster_codewars.png',
+    //imgUrl: '/planet13.jpg',
+    Poster: '/poster_codewars.png',
+    title: 'Codewars',
+    subtitle: 'The pong game is the two-dimensional game that simulates table tennis kind of competition.It consists of a ball bouncing on a screen and each of the players is provided with slider to hit the ball.The position of slider is adjusted using a knob which will be provided at the either sides of the screen.',
+    open:false
+    // pageUrl: '/Poster'
+  },
 ];
 
 export const exploreWorlds5 = [
