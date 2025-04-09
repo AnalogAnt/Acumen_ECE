@@ -88,7 +88,7 @@ const Explore = () => {
         </Swiper>
         <div className='flex justify-end'>
         <a
-              href="https://events.studenttribe.in/event/67e63e31e5c536d5ced28d72"
+              href="https://drive.google.com/drive/folders/174-if8kTPzf6uX4prsaffU8a2rVo2nUi"
               target="_blank"
               rel="noreferrer"
             >
