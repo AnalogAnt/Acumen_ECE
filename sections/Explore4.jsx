@@ -86,7 +86,19 @@ const Explore = () => {
           ))}
           
         </Swiper>
-
+        <div className='flex justify-end'>
+        <a
+              href="https://events.studenttribe.in/event/67e63e31e5c536d5ced28d72"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="relative p-[2px] bg-gradient-to-r from-[#ff3bff] to-[#5C24FF] rounded-[32px]">
+                <span className="block bg-black px-6 py-4 text-white text-[16px] font-normal rounded-[30px]">
+                  Rule Book
+                </span>
+              </button>
+            </a>
+        </div>
 
       </motion.div>
     </section>
